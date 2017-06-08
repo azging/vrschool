@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=4, initial-scale=0.25, maximum-scale=3, minimum-scale=0.25, user-scalable=no">
     <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./static/css/onepage-scroll.css"/>
     <script src="./static/js/jquery.min.js"></script>
-    <script src="./static/js/jquery.videobackground.js"></script>
+    <script src="./static/js/jquery.onepage-scroll.min.js"></script>
 
     <!--
       Notice the use of %PUBLIC_URL% in the tag above.
@@ -33,46 +34,174 @@
   </body>
 
     <script>
-      (function(window) {
-        var theUA = window.navigator.userAgent.toLowerCase();
-        if ((theUA.match(/msie\s\d+/) && theUA.match(/msie\s\d+/)[0]) || (theUA.match(/trident\s?\d+/) && theUA.match(/trident\s?\d+/)[0])) {
-          var ieVersion = theUA.match(/msie\s\d+/)[0].match(/\d+/)[0] || theUA.match(/trident\s?\d+/)[0];
-          if (ieVersion < 9) {
-            var str = "你的浏览器版本太low了\n已经和时代脱轨了 :(";
-            var str2 = "推荐使用:<a href='https://www.baidu.com/s?ie=UTF-8&wd=%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8' target='_blank' style='color:#cc0'>谷歌</a>,"
-            + "<a href='https://www.baidu.com/s?ie=UTF-8&wd=%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8' target='_blank' style='color:#cc0'>火狐</a>,"
-            + "<a href='https://www.baidu.com/s?ie=UTF-8&wd=%E7%8C%8E%E8%B1%B9%E6%B5%8F%E8%A7%88%E5%99%A8' target='_blank' style='color:#cc0'>猎豹</a>,其他双核急速模式";
-            document.writeln("<pre style='text-align:center;color:#fff;background-color:#0cc; height:100%;border:0;position:fixed;top:0;left:0;width:100%;z-index:1234'>" + 
-            "<h2 style='padding-top:200px;margin:0'><strong>" + str + "<br/></strong></h2><p>" + 
-            str2 + "</p><h2 style='margin:0'><strong>如果你的使用的是双核浏览器,请切换到极速模式访问<br/></strong></h2></pre>");
-            document.execCommand("Stop");
-          };
+      $(function(){
+        function bindArrow(section) {
+          $(section + ' .down-arrow').mouseover(function(){
+            $(section + " .down-arrow2").css("top","102px");
+          });
+          $(section + ' .down-arrow').mouseout(function(){
+            $(section + " .down-arrow2").css("top","0");
+          });
         }
-      })(window);
-      function IsPC() {  
-        var userAgentInfo = navigator.userAgent;  
-        var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
-        var flag = true;  
-        for (var v = 0; v < Agents.length; v++) {  
-          if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }  
-        }  
-        return flag;  
-      }       
-     
-      $(document).ready(function() { 
-        if (IsPC()){
-          $('#hero').prepend('<div class="video-background"></div>');
-          $('.video-background').videobackground({
-            videoSource: ['static/video/hero.mp4', 'video/mp4'],
-            controlPosition: '#hero',
-            poster: 'static/image/banner.png',
-            autoplay: true,
-            loop: true,
-            resize: false,
-            muted: true,
-            controlText: false,
-          })
-        }
-      })
+        $('.main').onepage_scroll({
+          sectionContainer: '.page',
+          loop: false,
+          afterMove: function(index){
+            if (document.body.clientWidth > 1366) {
+              switch(index){
+                case 1:
+                  break;
+                case 2:
+                  $('.ies > h1').css('opacity', '1')
+                  $('.ies > h1').css('margin-top', '100px')
+                  $('.ies > .mark').css('opacity', '1')
+                  $('.ies > .mark').css('left', '10%')
+                  $('.ies-btn').css('opacity', '1')
+                  $('.ies-btn').css('right', '18.2%')
+                  $('.ies-device').css('opacity', '1')
+                  $('.ies-device').css('bottom', '0')
+                  $('.ies .down-arrow2').css('top', '0')
+                  bindArrow('.ies');
+                  break;
+                case 3:
+                  $('.china > h1').css('opacity', '1')
+                  $('.china > h1').css('top', '15%')
+                  $('.china > h2').css('opacity', '1')
+                  $('.china > h2').css('top', '23%')
+                  $('.border').css('opacity', '1')
+                  $('.border').css('left', '20%')
+                  $('.child').css('opacity', '1')
+                  $('.child').css('left', '15%')
+                  $('.child').css('bottom', '18%')
+                  $('.china .down-arrow2').css('top', '0')
+                  bindArrow('.china');
+
+                  // function cityAppear(i) {
+                  //   if(i < 19) {
+                  //     setTimeout(function(){
+                  //       $('.city' + i).css('opacity', '1')
+                  //       console.log(i + '???')
+                  //     },100 * i)
+                  //   }else if(18 < i <= 24) {
+                  //     setTimeout(function(){
+                  //       $('.city' + i).css('opacity', '1')
+                  //       $('.city-name' + i).css('opacity', '1')
+                  //       console.log(i + '???  name')
+                  //     },100 * i)
+                  //   }
+                  // }
+                  // for (var i = 1; i <= 24; i++) {
+                  //   cityAppear(i);
+                  // }
+                  var i = 0
+                  function cityAppear() {
+                    i++;
+                    if(i < 19) {
+                      setTimeout(function(){
+                        $('.city' + i).css('opacity', '1')
+                        console.log(i + '???')
+                        return cityAppear()
+                      },30)
+                    }else if(18 < i <= 24) {
+                      setTimeout(function(){
+                        $('.city' + i).css('opacity', '1')
+                        $('.city-name' + i).css('opacity', '1')
+                        console.log(i + '???  name')
+                        return cityAppear()
+                      },30)
+                    }
+
+                  }
+                  cityAppear()
+                  break;
+                case 4:
+                  $('.honor-box').css('opacity', '1')
+                  $('.ies-img-2').css('top', '-140px')
+                  $('.honor .down-arrow2').css('top', '0')
+                  bindArrow('.honor');
+                  break;
+              }
+            } else {
+              switch(index){
+                case 1:
+                  break;
+                case 2:
+                  $('.ies > h1').css('opacity', '1')
+                  $('.ies > h1').css('margin-top', '100px')
+                  $('.ies > .mark').css('opacity', '1')
+                  $('.ies > .mark').css('left', '10%')
+                  $('.ies-btn').css('opacity', '1')
+                  $('.ies-btn').css('right', '17%')
+                  $('.ies-device').css('opacity', '1')
+                  $('.ies-device').css('bottom', '0')
+                  $('.ies .down-arrow2').css('top', '0')
+                  bindArrow('.ies');
+                  break;
+                case 3:
+                  $('.china > h1').css('opacity', '1')
+                  $('.china > h1').css('top', '100px')
+                  $('.china > h2').css('opacity', '1')
+                  $('.china > h2').css('top', '160px')
+                  $('.border').css('opacity', '1')
+                  $('.border').css('left', '20%')
+                  $('.child').css('opacity', '1')
+                  $('.child').css('left', '15%')
+                  $('.child').css('bottom', '18%')
+                  $('.china .down-arrow2').css('top', '0')
+                  bindArrow('.china');
+
+                  // function cityAppear(i) {
+                  //   if(i < 19) {
+                  //     setTimeout(function(){
+                  //       $('.city' + i).css('opacity', '1')
+                  //       console.log(i + '???')
+                  //     },100 * i)
+                  //   }else if(18 < i <= 24) {
+                  //     setTimeout(function(){
+                  //       $('.city' + i).css('opacity', '1')
+                  //       $('.city-name' + i).css('opacity', '1')
+                  //       console.log(i + '???  name')
+                  //     },100 * i)
+                  //   }
+                  // }
+                  // for (var i = 1; i <= 24; i++) {
+                  //   cityAppear(i);
+                  // }
+                  var i = 0
+                  function cityAppear() {
+                    i++;
+                    if(i < 19) {
+                      setTimeout(function(){
+                        $('.city' + i).css('opacity', '1')
+                        console.log(i + '???')
+                        return cityAppear()
+                      },30)
+                    }else if(18 < i <= 24) {
+                      setTimeout(function(){
+                        $('.city' + i).css('opacity', '1')
+                        $('.city-name' + i).css('opacity', '1')
+                        console.log(i + '???  name')
+                        return cityAppear()
+                      },30)
+                    }
+
+                  }
+                  cityAppear()
+                  break;
+                case 4:
+                  $('.honor-box').css('opacity', '1')
+                  $('.ies-img-2').css('top', '-17%')
+                  $('.honor .down-arrow2').css('top', '0')
+                  bindArrow('.honor');
+                  break;
+              }
+            }
+          }
+        });
+      });
+
+
+
+
     </script>
 </html>
