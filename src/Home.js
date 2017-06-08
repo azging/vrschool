@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import './home.css';
 import $ from 'jquery';
 import Rlslsd from './Rlslsd';
-//import {HashRouter, Route, Link} from 'react-router-dom'//导入的方式跟之前有点变化
-
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 class Home extends Component {
   componentDidMount() {
@@ -100,6 +99,7 @@ class Home extends Component {
               <div className="for-school"><a href="./school/for-school.html">学校登陆</a></div>
               <span className="target"></span>
             </nav>
+            
         </header>
         <section className="hero-content">
           <img src="static/image/vr_glass.png" alt="" className="vr-glass" />
