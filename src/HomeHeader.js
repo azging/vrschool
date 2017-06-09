@@ -87,7 +87,7 @@ class HomeHeader extends Component {
                     <div className="tab">应用</div>
                     <div className="tab">新闻动态</div>
                     <div className="tab" id="contact-us">联系我们</div>
-                  <div className="for-school"><a href="http://123.57.53.5/vr/school/index.html">学校登录</a></div>
+                  <div className="for-school"><a href="http://123.57.53.5/vr/login/">学校登录</a></div>
                   <span className="target"></span>
                 </nav>
                 <section className="home-product-nav" id="product-nav">

@@ -48,7 +48,9 @@ class Contact extends Component {
             </section>
           </section>
         </section>
-        <HomeFooter />
+        <section className="contact-wrapper-footer">
+            <HomeFooter />
+        </section>
       </section>
     );
   }
