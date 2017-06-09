@@ -10,13 +10,13 @@ class Contact extends Component {
       <section class="contact">
         <HomeHeader />
         <section className="top-bg">
-          <img src="static/image/contact-banner.png" className="top-image"/>
+          <img src="http://download.duckr.cn/vrschool/contact/contact-banner.png" className="top-image"/>
         </section>
         <section className="contact-box">
           <h1 className="contact-title">联系我们</h1>
           <section className="content-box">
             <section className="contact-info-box">
-              <img src="static/image/logo5.png" alt="" className="logo"/>
+              <img src="http://download.duckr.cn/vrschool/footer/logo5.png" alt="" className="logo"/>
               <p className="contact-info-subtitle">地址：</p>
               <p className="contact-info-detail">北京市海淀区上地创业中路32号3-301</p>
               <p className="contact-info-subtitle">电话：</p>
@@ -42,7 +42,7 @@ class Contact extends Component {
                 </section>
               </form>
               <section className="success-box">
-                <img src="static/image/icon_success.png" alt="" className="success-logo"/>
+                <img src="http://download.duckr.cn/vrschool/contact/icon_success.png" alt="" className="success-logo"/>
                 <p className="success-hint">已提交成功，我们会尽快联系您！</p>
               </section>
             </section>

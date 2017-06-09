@@ -837,7 +837,7 @@ input::-webkit-input-placeholder {
 
 
 .footer {
-    padding: 460px 0 115px;
+    padding: 460px 100 115px;
     width: 80%;
     margin: 0 auto;
 }
@@ -862,19 +862,19 @@ input::-webkit-input-placeholder {
     font-size: 14px;
     color: #333333;
 }
-.contact-box {
+.footer-box {
     margin-left: 100px;
 }
-.contact-box .contact-logo {
+.footer-box .contact-logo {
     margin-bottom: 5px;
 }
-.contact-box .contact-info {
+.footer-box .contact-info {
     font-family: SourceHanSansCN-Medium;
     font-size: 16px;
     color: #333333;
     margin-top: 20px;
 }
-.contact-box .contact-info:nth-child(3) {
+.footer-box .contact-info:nth-child(3) {
     line-height: 22px;
 }
 
@@ -1103,13 +1103,13 @@ input::-webkit-input-placeholder {
  .qrcode-box .qrcode-hint {
      font-size: 12px;
  }
- .contact-box {
+ .footer-box {
      margin-left: 50px;
  }
- .contact-box .contact-logo {
+ .footer-box .contact-logo {
      height: 45px;
  }
- .contact-box .contact-info {
+ .footer-box .contact-info {
      font-size: 14px;
      margin-top: 12px;
  }

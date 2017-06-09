@@ -7,11 +7,11 @@ class HomeFooter extends Component {
           <section className="footer-content">
             <section className="footer-left-box">
               <section className="qrcode-box">
-                <img src="static/image/qrcode.png" alt="" className="qrcode-image"/>
+                <img src="http://download.duckr.cn/vrschool/footer/qrcode.png" alt="" className="qrcode-image"/>
                 <p className="qrcode-hint">关注微视酷微信订阅号</p >
               </section>
-              <section className="contact-box">
-                <img src="static/image/logo5.png" alt="" className="contact-logo"/>
+              <section className="footer-box">
+                <img src="http://download.duckr.cn/vrschool/footer/logo5.png" alt="" className="contact-logo"/>
                 <p className="contact-info">地址：北京市海淀区上地创业中路32号3-301</p >
                 <p className="contact-info">电话：400-0860581<br/>010-87366561</p >
                 <p className="contact-info">邮箱：INFO@WIZSCH.COM</p >

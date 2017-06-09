@@ -34,22 +34,22 @@ class Login extends Component {
     render() {
         return (
             <section className="login-box">
-                <img className="login-bg" src="/static/image/login/login-bg.png" />
-                <img className="login-logo" src="/static/image/login/logo.png" />
-                <img className="login-middle-rect1" src="/static/image/login/rect1.png" />
-                <img className="login-middle-rect2" src="/static/image/login/rect2.png" />
+                <img className="login-bg" src="http://download.duckr.cn/vrschool/login/login-bg.png" />
+                <img className="login-logo" src="http://download.duckr.cn/vrschool/login/logo.png" />
+                <img className="login-middle-rect1" src="http://download.duckr.cn/vrschool/login/rect1.png" />
+                <img className="login-middle-rect2" src="http://download.duckr.cn/vrschool/login/rect2.png" />
                 <section className="login-middle-rect2">
                     <section className="login-middle-input-box">
                         <p className="login-middle-input-title">学校登录</p>
                         <section className="login-middle-input-wrap1">
                             <section className="login-middle-input-left">
-                                <img src="/static/image/login/user-icon.png" />
+                                <img src="http://download.duckr.cn/vrschool/login/user-icon.png" />
                             </section>
                             <input className="login-middle-input-right" placeholder="用户名"/>
                         </section>
                         <section className="login-middle-input-wrap2">
                             <section className="login-middle-input-left">
-                                <img src="/static/image/login/pwd-icon.png" />
+                                <img src="http://download.duckr.cn/vrschool/login/pwd-icon.png" />
                             </section>
                             <input className="login-middle-input-right" placeholder="密码" type="password"/>
                         </section>

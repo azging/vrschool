@@ -53,6 +53,9 @@ class HomeHeader extends Component {
         links[i].addEventListener("mouseenter", mouseenterFunc);
       }
 
+      /*$("#contact-us").click(function(){
+          window.location.href = './contact_us/index.html';
+      });*/
       function resizeFunc() {
         var active = document.querySelector(".mynav li.active");
 
@@ -78,8 +81,8 @@ class HomeHeader extends Component {
                     <div className="tab">解决方案</div>
                     <div className="tab">应用</div>
                     <div className="tab">新闻动态</div>
-                    <div className="tab">联系我们</div>
-                  <div className="for-school"><a href="./school/for-school.html">学校登录</a></div>
+                    <div className="tab" id="contact-us">联系我们</div>
+                  <div className="for-school"><a href="./school/index.html">学校登录</a></div>
                   <span className="target"></span>
                 </nav>
                 <section className="home-product-nav" id="product-nav">

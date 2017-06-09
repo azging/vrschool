@@ -47,7 +47,7 @@ table {
 
 .product-index {
     width: 100%;
-    background: url(/static/image/product_bg.png);
+    background: url(http://download.duckr.cn/vrschool/product/product_bg.png);
     padding: 168px 8% 172px;
     margin: 0 auto;
     display: flex;
@@ -85,28 +85,28 @@ table {
 .product-index .item:hover .item-icon {
 }
 .product-index #item1 .item-icon {
-    background-image: url(/static/image/product_1_icon.png);
+    background-image: url(http://download.duckr.cn/vrschool/product/product_1_icon.png);
 }
 .product-index #item1:hover .item-icon {
-    background-image: url(/static/image/product_1h_icon.png);
+    background-image: url(http://download.duckr.cn/vrschool/product/product_1h_icon.png);
 }
 .product-index #item2 .item-icon {
-    background-image: url(/static/image/product_2_icon.png);
+    background-image: url(http://download.duckr.cn/vrschool/product/product_2_icon.png);
 }
 .product-index #item2:hover .item-icon {
-    background-image: url(/static/image/product_2h_icon.png);
+    background-image: url(http://download.duckr.cn/vrschool/product/product_2h_icon.png);
 }
 .product-index #item3 .item-icon {
-    background-image: url(/static/image/product_3_icon.png);
+    background-image: url(http://download.duckr.cn/vrschool/product/product_3_icon.png);
 }
 .product-index #item3:hover .item-icon {
-    background-image: url(/static/image/product_3h_icon.png);
+    background-image: url(http://download.duckr.cn/vrschool/product/product_3h_icon.png);
 }
 .product-index #item4 .item-icon {
-    background-image: url(/static/image/product_4_icon.png);
+    background-image: url(http://download.duckr.cn/vrschool/product/product_4_icon.png);
 }
 .product-index #item4:hover .item-icon {
-    background-image: url(/static/image/product_4h_icon.png);
+    background-image: url(http://download.duckr.cn/vrschool/product/product_4h_icon.png);
 }
 .product-index .item .item-link {
     font-family: SourceHanSansCN-Regular;
