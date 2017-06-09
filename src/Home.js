@@ -39,13 +39,13 @@ class Home extends Component {
       <section className="page hero">
         <HomeHeader /> 
         <section className="hero-content">
-          <img src="static/image/vr_glass.png" alt="" className="vr-glass" />
+          <img src="http://download.duckr.cn/vrschool/home/vr_glass.png" alt="" className="vr-glass" />
           <h1>让教育变得更简单、更快乐、更高效</h1>
           <h2>Make education easier ，happier and more effient</h2>
         </section>
         <div className="down-arrow">
-          <img src="static/image/down_arrow.png" alt="" className="down-arrow1" />
-          <img src="static/image/down_arrow.png" alt="" className="down-arrow2" />
+          <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow1" />
+          <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow2" />
         </div>
       </section>
       <section className="page ies">
@@ -59,10 +59,10 @@ class Home extends Component {
           进入开发者平台
           <span className="join">></span>
         </div>
-        <img src="static/image/ies_vr.png" alt="" className="ies-device" />
+        <img src="http://download.duckr.cn/vrschool/home/ies_vr.png" alt="" className="ies-device" />
         <div className="down-arrow">
-          <img src="static/image/down_arrow.png" alt="" className="down-arrow1" />
-          <img src="static/image/down_arrow.png" alt="" className="down-arrow2" />
+          <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow1" />
+          <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow2" />
         </div>
       </section>
       <section className="page china">
@@ -103,17 +103,17 @@ class Home extends Component {
         </section>
         <h1>微视酷VR教育</h1>
         <h2>遍布全国课堂，师生共创体验式教学的精彩！</h2>
-        <img src="static/image/P3_image1.png" alt="" className="child" />
-        <img src="static/image/P3_image2.png" alt="" className="border" />
+        <img src="http://download.duckr.cn/vrschool/home/P3_image1.png" alt="" className="child" />
+        <img src="http://download.duckr.cn/vrschool/home/P3_image2.png" alt="" className="border" />
         <div className="down-arrow">
-          <img src="static/image/down_arrow.png" alt="" className="down-arrow1" />
-          <img src="static/image/down_arrow.png" alt="" className="down-arrow2" />
+          <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow1" />
+          <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow2" />
         </div>
       </section>
       <section className="page honor">
         <section className="honor-content">
           <section className="honor-left-box honor-box">
-            <img src="static/image/icon1.png" alt="" className="honor-logo"/>
+            <img src="http://download.duckr.cn/vrschool/home/icon1.png" alt="" className="honor-logo"/>
             <p className="honor-text">承接中国教育学会“十三五”国家课题</p >
             <p className="honor-subtext">《VR沉浸式教学技术辅助学校体验课程建设与教<br/>学改革的研究》</p >
             <p className="honor-text">承接中央电教馆国家级课题</p >
@@ -121,26 +121,26 @@ class Home extends Component {
             <p className="honor-text">VR CHINA JAM最佳创意奖</p >
           </section>
           <section className="honor-center-box honor-box">
-            <img src="static/image/icon2.png" alt="" className="honor-logo"/>
+            <img src="http://download.duckr.cn/vrschool/home/icon2.png" alt="" className="honor-logo"/>
             <p className="honor-text">中国教育装备行业协会会员</p >
             <p className="honor-text">中国可视化虚拟现实战略产业联盟<br/>成员单位</p >
             <p className="honor-text">北京科技大学虚拟现实实验室</p >
           </section>
           <section className="honor-right-box honor-box">
-            <img src="static/image/icon3.png" alt="" className="honor-logo"/>
+            <img src="http://download.duckr.cn/vrschool/home/icon3.png" alt="" className="honor-logo"/>
             <p className="honor-text">中关村高新技术企业</p >
             <p className="honor-text">中国教育学会教育管理分会理事单位</p >
             <p className="honor-text">CEO杨威被聘为中关村虚拟现实空间<br/>(STRONGVR)导师</p >
           </section>
         </section>
         <div className="down-arrow">
-          <img src="static/image/down_arrow.png" alt="" className="down-arrow1" />
-          <img src="static/image/down_arrow.png" alt="" className="down-arrow2" />
+          <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow1" />
+          <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow2" />
         </div>
       </section>
 
       <section className="page page5">
-        <img src="static/image/P4_image.png" alt="" className="ies-img-2"/>
+        <img src="http://download.duckr.cn/vrschool/home/P4_image.png" alt="" className="ies-img-2"/>
         <HomeFooter />
       </section>
     </section>
