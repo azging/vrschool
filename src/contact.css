@@ -1,0 +1,205 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+.top-bg {
+    position: relative;
+    width: 100%;
+    height: 860px;
+    overflow: hidden;
+}
+.top-image {
+    width: 1920px;
+    height: 860px;
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+}
+
+.contact-box {
+    width: 90%;
+    max-width: 1534px;
+    margin: 176px auto 125px;
+}
+
+.contact-box .contact-title {
+    font-family: SourceHanSansCN-Medium;
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
+}
+.contact-box .content-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.contact-info-box {
+    width: 30%;
+    margin-top: 56px;
+    margin-left: 40px;
+}
+.contact-info-box .logo {
+    width: auto;
+    height: auto;
+    margin-bottom: 12px;
+}
+.contact-info-box .contact-info-subtitle {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.contact-info-box .contact-info-detail {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 12px;
+}
+
+.comment-box {
+    position: relative;
+    width: 65%;
+    height: 481px;
+    background: #f6f6f6;
+    padding: 26px 46px 60px;
+    box-sizing: border-box;
+}
+.comment-box form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.comment-box form .left-box {
+    width: 47%;
+    height: 100%;
+}
+.comment-box form .right-box {
+    width: 47%;
+    height: 100%;
+}
+.comment-box label {
+    display: block;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 22px;
+    color: #333333;
+    margin-top: 34px;
+}
+.comment-box input {
+    width: 100%;
+    height: 60px;
+    display: block;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 20px;
+    color: #999999;
+    margin-top: 16px;
+    padding: 2px 10px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    outline: none;
+}
+.comment-box input:focus {
+    border-color: #f08200;
+}
+.comment-box textarea {
+    width: 100%;
+    height: 240px;
+    display: block;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 16px;
+    padding: 10px 10px;
+    border: 1px solid #f08300;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+}
+.comment-box textarea:focus {
+    border-color: #f08300;
+}
+.comment-box button {
+    display: block;
+    width: 120px;
+    height: 42px;
+    float: right;
+    margin-top: 42px;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 20px;
+    color: #ffffff;
+    background: #f08300;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.comment-box button:disabled {
+    background: #b0b0b0;
+}
+.comment-box button:hover {
+    opacity: 0.85;
+}
+
+.success-box {
+    position: absolute;
+    width: 460px;
+    height: 260px;
+    top: 111px;
+    left: 280px;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    display: none;
+}
+.success-box .success-logo {
+    margin: 57px 0 40px;
+}
+.success-box .success-hint {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 22px;
+    color: #ffffff;
+}

@@ -1,0 +1,153 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+.top-bg {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.top-image {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.detail-box {
+    width: 85%;
+    max-width: 1538px;
+    position: relative;
+    top: -237px;
+    margin: 0 auto;
+    box-shadow: 0 0 16px #bbb;
+    background: #fff;
+}
+
+.nav-box {
+    padding: 44px 66px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-box > .detail-nav {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 30px;
+    color: #999999;
+}
+.nav-box > .detail-nav .current-nav {
+    color: #f08200;
+}
+.nav-box > .detail-time {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 30px;
+    color: #999999;
+    display: none;
+}
+
+.content-box {
+    padding: 114px 66px 28px;
+}
+.content-box .news-title {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 60px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 88px;
+    line-height: 94px;
+}
+.content-box .news-content > img {
+    display: block;
+    width: 80%;
+    height: auto;
+    padding-bottom: 72px;
+    margin: 0 auto;
+}
+.content-box .news-content > p {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 30px;
+    color: #333333;
+    text-align: justify;
+    margin: 8px 0 54px;
+    line-height: 48px;
+}
+
+
+@media screen and  (max-width: 1440px) {
+    .detail-box {
+        top: -180px;
+    }
+    .nav-box > .detail-nav {
+        font-size: 26px;
+    }
+    .nav-box > .detail-time {
+        font-size: 26px;
+    }
+    .content-box .news-title {
+        font-size: 52px;
+    }
+    .content-box .news-content > p {
+        font-size: 26px;
+    }
+}
+
+
+@media screen and  (max-width: 1024px) {
+    .detail-box {
+        top: -140px;
+    }
+    .nav-box > .detail-nav {
+        font-size: 22px;
+    }
+    .nav-box > .detail-time {
+        font-size: 22px;
+    }
+    .content-box .news-title {
+        font-size: 44px;
+    }
+    .content-box .news-content > p {
+        font-size: 22px;
+    }
+}

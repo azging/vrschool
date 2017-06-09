@@ -1,0 +1,54 @@
+import React, { Component } from 'react';
+
+class HomeFooter extends Component {
+    render() {
+        return (
+            <footer className="footer">
+          <section className="footer-content">
+            <section className="footer-left-box">
+              <section className="qrcode-box">
+                <img src="static/image/qrcode.png" alt="" className="qrcode-image"/>
+                <p className="qrcode-hint">关注微视酷微信订阅号</p >
+              </section>
+              <section className="contact-box">
+                <img src="static/image/logo5.png" alt="" className="contact-logo"/>
+                <p className="contact-info">地址：北京市海淀区上地创业中路32号3-301</p >
+                <p className="contact-info">电话：400-0860581<br/>010-87366561</p >
+                <p className="contact-info">邮箱：INFO@WIZSCH.COM</p >
+              </section>
+            </section>
+            <section className="footer-right-box">
+              <section className="about-box">
+                <h5 className="item-title">关于微视酷</h5>
+                <a href="" className="item-link">关于我们</a >
+                <a href="" className="item-link">合作伙伴</a >
+                <a href="" className="item-link">加入我们</a >
+              </section>
+              <section className="support-box">
+                <h5 className="item-title">支持与下载</h5>
+                <a href="" className="item-link">售后服务</a >
+                <a href="" className="item-link">技术支持</a >
+                <a href="" className="item-link">资料下载</a >
+              </section>
+              <section className="entry-box">
+                <h5 className="item-title">入口</h5>
+                <a href="" className="item-link">开发者</a >
+                <a href="" className="item-link">IES登陆</a >
+              </section>
+              <section className="news-box">
+                <h5 className="item-title">媒体资讯</h5>
+                <a href="" className="item-link">媒体介绍</a >
+                <a href="" className="item-link">技术支持</a >
+                <a href="" className="item-link">行业资讯</a >
+              </section>
+            </section>
+          </section>
+          <section className="footer-copyright">
+            <p className="copyright-content">COPYRIGHT @ 2017 微视酷</p >
+          </section>
+        </footer>
+        );
+    }
+}
+
+export default HomeFooter;

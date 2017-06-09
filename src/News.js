@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './home.css'; 
+import HomeHeader from './HomeHeader.js';
+import HomeFooter from './HomeFooter.js';
 var $ = require('jquery');
 
 class PicText extends Component {
@@ -34,6 +36,7 @@ class News extends Component {
     render() {
         return (
             <section className="home">
+                <HomeHeader />
                 <img className="news-top-slider-bg" src="/static/image/news/slider-bg.png" />
                 <section className="news-middle-box">
                     <section className="news-middle-content-box">
@@ -51,6 +54,7 @@ class News extends Component {
                         <PicText data="/static/image/news/banner7.jpg" title="VR课堂朝阳润丰小学，探索未来教育新模式" type="3" href="http://www.baidu.com" />
                         <PicText data="/static/image/news/banner8.jpg" title="微视酷VR课堂再现哈市 聚首阳明小学探讨未来教育" type="3" href="http://www.duckr.cn" />
                 </section>
+                <HomeFooter />
             </section>
         );
     }

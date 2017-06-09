@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './home.css'; 
+import HomeHeader from './HomeHeader.js';
+import HomeFooter from './HomeFooter.js';
+
 var $ = require('jquery');
 
 class PicText extends Component {
@@ -34,6 +37,7 @@ class Industry extends Component {
     render() {
         return (
             <section className="home">
+                <HomeHeader />
                 <img className="news-top-slider-bg" src="/static/image/industry/slider-bg.png" />
                 <section className="news-middle-box">
                     <section className="news-middle-content-box">
@@ -51,6 +55,7 @@ class Industry extends Component {
                         <PicText data="/static/image/industry/banner7.png" title="VR教育：新加坡利用VR宣传道路交通安全" type="3" href="http://www.baidu.com" />
                         <PicText data="/static/image/industry/banner8.jpg" title="VR虚拟现实技术在教育领域的前景展望" type="3" href="http://www.duckr.cn" />
                 </section>
+                <HomeFooter />
             </section>
         );
     }
