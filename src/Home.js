@@ -53,11 +53,11 @@ class Home extends Component {
         <h1>中国首套整整能上课的VR教学系统</h1>
         <div className="ies-btn know-ies">
           了解更多IES
-          <span className="join">></span>
+          <span className="join"></span>
         </div>
         <div className="ies-btn join-develop">
           进入开发者平台
-          <span className="join">></span>
+          <span className="join"></span>
         </div>
         <img src="http://download.duckr.cn/vrschool/home/ies_vr.png" alt="" className="ies-device" />
         <div className="down-arrow">
