@@ -60,7 +60,9 @@ class Details extends Component {
             </section>
           </section>
         </section>
-        <HomeFooter />
+        <section className="details-wrapper-footer">
+            <HomeFooter />
+        </section>
       </section>
     );
   }

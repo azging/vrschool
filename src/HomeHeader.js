@@ -80,7 +80,7 @@ class HomeHeader extends Component {
         return (
             <header>
                 <nav className="hero-nav mynav">
-                  <img src="static/image/topLogo.png" alt="" className="logo" />
+                  <img src="http://download.duckr.cn/vrschool/home/topLogo.png" alt="" className="logo" />
                     <div className="tab tab1">首页</div>
                     <div className="tab">产品</div>
                     <div className="tab">解决方案</div>
