@@ -718,6 +718,13 @@ input::-webkit-input-placeholder {
     justify-content: space-between;
 }
 
+.news-wrapper-footer {
+    position: relative;
+    top: -144px;
+    width: 100%;
+    height: 648px;
+}
+
 
 
 

@@ -54,7 +54,9 @@ class News extends Component {
                         <PicText data="http://download.duckr.cn/vrschool/news/banner7.jpg" title="VR课堂朝阳润丰小学，探索未来教育新模式" type="3" href="http://www.baidu.com" />
                         <PicText data="http://download.duckr.cn/vrschool/news/banner8.jpg" title="微视酷VR课堂再现哈市 聚首阳明小学探讨未来教育" type="3" href="http://www.duckr.cn" />
                 </section>
-                <HomeFooter />
+                <section className="news-wrapper-footer">
+                    <HomeFooter />
+                </section>
             </section>
         );
     }
