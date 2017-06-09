@@ -56,16 +56,16 @@ table {
     margin: 0 auto;
 }
 .product-subnav .subnav-item#subnav-item1 {
-    background-image: url(/static/image/subnav_product_1_bg.png);
+    background-image: url(http://download.duckr.cn/vrschool/nav/subnav_product_1_bg.png);
 }
 .product-subnav .subnav-item#subnav-item2 {
-    background-image: url(/static/image/subnav_product_2_bg.png);
+    background-image: url(http://download.duckr.cn/vrschool/nav/subnav_product_2_bg.png);
 }
 .product-subnav .subnav-item#subnav-item3 {
-    background-image: url(/static/image/subnav_product_3_bg.png);
+    background-image: url(http://download.duckr.cn/vrschool/nav/subnav_product_3_bg.png);
 }
 .product-subnav .subnav-item#subnav-item4 {
-    background-image: url(/static/image/subnav_product_4_bg.png);
+    background-image: url(http://download.duckr.cn/vrschool/nav/subnav_product_4_bg.png);
 }
 
 .news-subnav {
@@ -77,10 +77,10 @@ table {
     margin: 0 auto;
 }
 .news-subnav .subnav-item#subnav-item1 {
-    background-image: url(/static/image/subnav_news_1_bg.png);
+    background-image: url(http://download.duckr.cn/vrschool/nav/subnav_news_1_bg.png);
 }
 .news-subnav .subnav-item#subnav-item2 {
-    background-image: url(/static/image/subnav_news_2_bg.png);
+    background-image: url(http://download.duckr.cn/vrschool/nav/subnav_news_2_bg.png);
 }
 
 .subnav-item {
