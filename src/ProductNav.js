@@ -9,22 +9,22 @@ class ProductNav extends Component {
         <section className="product-subnav">
           <a href="" className="subnav-item" id="subnav-item1">
             <div className="mask"></div>
-            <img src="static/image/subnav_product_1_icon.png" alt="" className="subnav-icon"/>
+            <img src="http://download.duckr.cn/vrschool/nav/subnav_product_1_icon.png" alt="" className="subnav-icon"/>
             <p className="subnav-title">IES系统</p>
           </a>
           <a href="" className="subnav-item" id="subnav-item2">
             <div className="mask"></div>
-            <img src="static/image/subnav_product_2_icon.png" alt="" className="subnav-icon"/>
+            <img src="http://download.duckr.cn/vrschool/nav/subnav_product_2_icon.png" alt="" className="subnav-icon"/>
             <p className="subnav-title">VR课堂</p>
           </a>
           <a href="" className="subnav-item" id="subnav-item3">
             <div className="mask"></div>
-            <img src="static/image/subnav_product_3_icon.png" alt="" className="subnav-icon"/>
+            <img src="http://download.duckr.cn/vrschool/nav/subnav_product_3_icon.png" alt="" className="subnav-icon"/>
             <p className="subnav-title">VR互动教室</p>
           </a>
           <a href="" className="subnav-item" id="subnav-item4">
             <div className="mask"></div>
-            <img src="static/image/subnav_product_4_icon.png" alt="" className="subnav-icon"/>
+            <img src="http://download.duckr.cn/vrschool/nav/subnav_product_4_icon.png" alt="" className="subnav-icon"/>
             <p className="subnav-title">VR实训空间</p>
           </a>
         </section>
