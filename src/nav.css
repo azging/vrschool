@@ -46,6 +46,9 @@ table {
 
 .nav {
     background: #f6f6f6;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
 }
 .product-subnav {
     width: 96%;

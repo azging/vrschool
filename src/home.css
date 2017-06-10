@@ -848,8 +848,10 @@ input::-webkit-input-placeholder {
 
 
 .footer {
-    padding: 460px 0 115px;
-    width: 80%;
+    padding-top: 71px;
+    padding-bottom: 30px;
+    margin-left: 11.7%;
+    width: 76.6%;
     margin: 0 auto;
 }
 
@@ -1104,10 +1106,6 @@ input::-webkit-input-placeholder {
      right: 22%;
  }
 
- .footer {
-     padding: 260px 10% 0;
-     margin: 0 auto;
- }
  .qrcode-box .qrcode-image {
      width: 120px;
  }

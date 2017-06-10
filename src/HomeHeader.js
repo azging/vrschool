@@ -49,6 +49,9 @@ class HomeHeader extends Component {
                 if (this == links[0]) {
                     target.addEventListener("click", jumpHome);
                 }
+                if (this == links[1]) {
+                    target.addEventListener("click", jumpProduct);
+                }
             }
         }
         function jumpContact() {
@@ -56,6 +59,9 @@ class HomeHeader extends Component {
         }
         function jumpHome() {
             window.location.href = 'http://123.57.53.5/vr/';
+        }
+        function jumpProduct() {
+            window.location.href = 'http://123.57.53.5/vr/product/';
         }
         for (var i = 0; i < links.length; i++) {
             links[i].addEventListener("mouseenter", mouseenterFunc);

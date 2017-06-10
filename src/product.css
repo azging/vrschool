@@ -143,3 +143,89 @@ table {
     width: 100%;
     height: 648px;
 }
+
+
+/* product ies */
+
+.ies-top-slider-bg {
+	overflow: hidden;
+	width: 100%;
+	height: auto; 
+}
+
+.ies-top-text-box {
+    position: absolute;
+    z-index: 100;
+    width: 545px;
+    height: 494px;
+    right: 13%;
+    margin: 0 auto;
+    top: 24%;
+}
+
+.ies-top-text-title {
+    width: 100%;
+    height: 35px;
+    font-size: 35px;
+    color: #333333;
+}
+
+.ies-top-text1 {
+    width: 100%;
+    height: auto;
+    margin: 52px 0 0 0;
+    font-size: 20px;
+    color: #333333;
+    line-height: 33px;
+}
+
+.ies-top-text2 {
+    width: 100%;
+    height: auto;
+    margin: 34px 0 0 0;
+    font-size: 20px;
+    color: #333333;
+    line-height: 33px;
+}
+
+.ies-login-school {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    line-height: 60px;
+    height: 60px;
+    width: 180px;
+    text-align: center;
+    background-color: #f08300;
+    cursor: pointer;
+ }
+
+ .ies-login-school a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #fff;
+ }
+
+ .ies-animation-box {
+     width: 100%;
+     height: 900px;
+ }
+
+ .ies-animation-right {
+     position: relative;
+     left: 69%;
+     width: 31%;
+     height: 100%;
+     background: #f6f6f6;
+ }
+
+ .ies-animation-line {
+     position: absolute;
+     left: 11.7%;
+     right: 11.7%;
+     width: 76.6%;
+     height: 1px;
+     background: #d1c0a5;
+ }

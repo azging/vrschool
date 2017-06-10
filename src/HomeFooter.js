@@ -6,10 +6,6 @@ class HomeFooter extends Component {
             <footer className="footer">
           <section className="footer-content">
             <section className="footer-left-box">
-              <section className="qrcode-box">
-                <img src="http://download.duckr.cn/vrschool/footer/qrcode.png" alt="" className="qrcode-image"/>
-                <p className="qrcode-hint">关注微视酷微信订阅号</p >
-              </section>
               <section className="footer-box">
                 <img src="http://download.duckr.cn/vrschool/footer/logo5.png" alt="" className="contact-logo"/>
                 <p className="contact-info">地址：北京市海淀区上地创业中路32号3-301</p >
@@ -42,6 +38,10 @@ class HomeFooter extends Component {
                 <a href="" className="item-link">行业资讯</a >
               </section>
             </section>
+            <section className="qrcode-box">
+                <img src="http://download.duckr.cn/vrschool/footer/qrcode.png" alt="" className="qrcode-image"/>
+                <p className="qrcode-hint">关注微视酷微信订阅号</p >
+              </section>
           </section>
           <section className="footer-copyright">
             <p className="copyright-content">COPYRIGHT @ 2017 微视酷</p >
