@@ -18,7 +18,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
-  <link href="./static/css/main.d7e34ab7.css" rel="stylesheet"></head>
+  <link href="./static/css/main.7076fa68.css" rel="stylesheet"></head>
   <body>
     <div id="root"></div>
     <!--
@@ -31,7 +31,7 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
-  <script type="text/javascript" src="/static/js/main.701c9913.js"></script></body>
+  <script type="text/javascript" src="/static/js/main.620f37c8.js"></script></body>
   <script>
     $(function(){
         function bindArrow(section) {
