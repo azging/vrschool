@@ -36,6 +36,12 @@ class Kinds extends Component {
                 <section className="page page1">
                     <HomeHeader /> 
                     <img className="kinds-page1-content" src="http://download.duckr.cn/vrschool/product/vr/1_bg_1.png" />
+                    <section className="kinds-pad-box">
+                        <section className="kinds-pad-arrow-box">
+                            <img src="http://download.duckr.cn/vrschool/product/vr/icon_L_s.png" className="kinds-pad-left-arrow" />
+                            <img src="http://download.duckr.cn/vrschool/product/vr/icon_R_s.png" className="kinds-pad-right-arrow" />
+                        </section>
+                    </section>
                 </section>
                 <section className="page page2">
                     <img className="kinds-page1-content" src="http://download.duckr.cn/vrschool/product/vr/2_bg.png" />

@@ -819,6 +819,37 @@ input::-webkit-input-placeholder {
     height: 100%;
 }
 
+.kinds-pad-box {
+    position: absolute;
+    right: 50px;
+    bottom: 13%;
+    width: 522px;
+    height: 371px;
+    background: url(http://download.duckr.cn/vrschool/product/vr/Pad.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.kinds-pad-arrow-box {
+    position: relative;
+    top: 158px;
+    width: 522px;
+    height: 54px;
+}
+
+.kinds-pad-left-arrow {
+    position: absolute;
+    width: 78px;
+    height: 54px;
+    left: 146px;
+}
+
+.kinds-pad-right-arrow {
+    position: absolute;
+    width: 78px;
+    height: 54px;
+    left: 327px;
+}
 
 /* news */
 
