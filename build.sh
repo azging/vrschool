@@ -24,11 +24,13 @@ sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
 mv -f build vr/product/ies
 
+cp -f scripts/index_scroll.html public/index.html
 sed -ie "s/ProductIes/Kinds/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
 mv -f build vr/product/kinds
+cp -f scripts/index_unscroll.html public/index.html
 
 sed -ie "s/Kinds/Solution/g" src/App.js 
 yarn build
