@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './home.css';
 import $ from 'jquery';
 import Rlslsd from './Rlslsd';
 import HomeHeader from './HomeHeader.js';

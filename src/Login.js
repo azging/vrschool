@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './home.css'; 
 var $ = require('jquery');
 
 class PicText extends Component {

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './home.css';
 import $ from 'jquery';
 import HomeHeader from './HomeHeader.js';
 import HomeFooter from './HomeFooter.js';

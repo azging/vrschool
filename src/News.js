@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './home.css'; 
 import HomeHeader from './HomeHeader.js';
 import HomeFooter from './HomeFooter.js';
 var $ = require('jquery');
