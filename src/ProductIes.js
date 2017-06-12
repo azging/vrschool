@@ -4,7 +4,7 @@ import HomeHeader from './HomeHeader.js';
 import HomeFooter from './HomeFooter.js';
 var $ = require('jquery');
 
-class Product extends Component {
+class ProductIes extends Component {
   render() {
     return (
       <section className="product">
@@ -32,6 +32,7 @@ class Product extends Component {
         <section className="ies-animation-box">
             <section className="ies-animation-right">
             </section>
+            <img className="ies-animation" src="http://download.duckr.cn/vrschool/product/ies/ies_animation.gif" />
             <section className="ies-animation-line">
             </section>
         </section>
@@ -41,4 +42,4 @@ class Product extends Component {
   }
 }
 
-export default Product;
+export default ProductIes;

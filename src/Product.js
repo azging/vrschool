@@ -31,9 +31,7 @@ class Product extends Component {
             <p className="item-link">了解更多→</p>
           </a>
         </section>
-        <section className="product-wrapper-footer">
-            <HomeFooter />
-        </section>
+        <HomeFooter />
       </section>
     );
   }

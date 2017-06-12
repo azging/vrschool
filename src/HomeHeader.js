@@ -9,6 +9,7 @@ class HomeHeader extends Component {
     (function () {
         var target = document.querySelector(".target");
         var links = document.querySelectorAll(".tab");
+        var baseUrl = 'http://123.57.53.5/vr/';
 
         function mouseenterFunc() {
             if (!this.classList.contains("active")) {
@@ -43,25 +44,38 @@ class HomeHeader extends Component {
                 target.style.top = top + "px";
                 target.style.borderColor = '#f08300';
                 target.style.transform = "none";
-                if (this == links[5]) {
-                    target.addEventListener("click", jumpContact);
-                }
+                
                 if (this == links[0]) {
                     target.addEventListener("click", jumpHome);
                 }
                 if (this == links[1]) {
                     target.addEventListener("click", jumpProduct);
                 }
+                if (this == links[2]) {
+                    target.addEventListener("click", jumpSolution);
+                }
+                if (this == links[3]) {
+                    target.addEventListener("click", jumpContent);
+                }
+                if (this == links[5]) {
+                    target.addEventListener("click", jumpContact);
+                }
             }
         }
         function jumpContact() {
-            window.location.href = 'http://123.57.53.5/vr/contact_us/';
+            window.location.href = baseUrl + 'contact_us/';
         }
         function jumpHome() {
-            window.location.href = 'http://123.57.53.5/vr/';
+            window.location.href = baseUrl;
         }
         function jumpProduct() {
-            window.location.href = 'http://123.57.53.5/vr/product/';
+            window.location.href = baseUrl + 'product/';
+        }
+        function jumpContent() {
+            window.location.href = baseUrl + 'content_details/';
+        }
+        function jumpSolution() {
+            window.location.href = baseUrl + 'total_solution/';
         }
         for (var i = 0; i < links.length; i++) {
             links[i].addEventListener("mouseenter", mouseenterFunc);
@@ -83,6 +97,8 @@ class HomeHeader extends Component {
     })();
     }
     render() {
+        var baseUrl = 'http://123.57.53.5/vr/';
+        var loginUrl = baseUrl + 'login/';
         return (
             <header>
                 <nav className="hero-nav mynav">
@@ -93,7 +109,7 @@ class HomeHeader extends Component {
                     <div className="tab">应用</div>
                     <div className="tab">新闻动态</div>
                     <div className="tab" id="contact-us">联系我们</div>
-                  <div className="for-school"><a href="http://123.57.53.5/vr/login/">学校登录</a></div>
+                  <div className="for-school"><a href={loginUrl}>学校登录</a></div>
                   <span className="target"></span>
                 </nav>
                 <section className="home-product-nav" id="product-nav">

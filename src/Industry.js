@@ -55,9 +55,7 @@ class Industry extends Component {
                         <PicText data="http://download.duckr.cn/vrschool/industry/banner7.png" title="VR教育：新加坡利用VR宣传道路交通安全" type="3" href="http://123.57.53.5/vr/details/detail1.html" />
                         <PicText data="http://download.duckr.cn/vrschool/industry/banner8.jpg" title="VR虚拟现实技术在教育领域的前景展望" type="3" href="http://123.57.53.5/vr/details/detail1.html" />
                 </section>
-                <section className="news-wrapper-footer">
-                    <HomeFooter />
-                </section>
+                <HomeFooter />
             </section>
         );
     }
