@@ -740,6 +740,141 @@ input::-webkit-input-placeholder {
     height: auto;
 }
 
+.solution-text1-box {
+    position: absolute;
+    width: 166px;
+    height: 30px;
+    right: 24%;
+    top: 28%;
+}
+
+.solution-text1-box p {
+    color: #333333;
+    font-size: 30px;
+}
+
+.solution-text2-box {
+    position: absolute;
+    width: 470px;
+    height: 220px;
+    right: 8.8%;
+    bottom: 31.2%;
+    display: none;
+}
+
+.solution-text-title {
+    color: #333333;
+    font-size: 30px;
+}
+
+.solution-text-content1 {
+    color: #666666;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 18px;
+    font-family: SourceHanSansCN-Medium;
+}
+
+.solution-text-content2 {
+    color: #666666;
+    font-size: 20px;
+    padding-top: 42px;
+    font-family: SourceHanSansCN-Medium;
+}
+
+.solution-text-white-title {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.solution-text-white-content1 {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 18px;
+    font-family: SourceHanSansCN-Medium;
+}
+
+.solution-text-white-content2 {
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 42px;
+    font-family: SourceHanSansCN-Medium;
+}
+.solution-text3-box {
+    position: absolute;
+    width: 356px;
+    height: auto;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 28%;
+    display: none;
+}
+
+.solution-text4-box {
+    position: absolute;
+    width: 570px;
+    height: auto;
+    top: 18.6%;
+    left: 12.6%;
+    padding-left: 25px;
+    padding-top: 32px;
+    padding-right: 25px;
+    padding-bottom: 36px;
+    background-color: rgba(255, 255, 255, 0.80);
+    display: none;
+}
+
+.solution-text5-box {
+    position: absolute;
+    width: 380px;
+    height: auto;
+    left: 12%;
+    top: 30%;
+    display: none;
+}
+
+.solution-text6-box {
+    position: absolute;
+    width: 590px;
+    height: auto;
+    right: 21%;
+    top: 14%;
+    display: none;
+}
+
+.solution-text7-box {
+    position: absolute;
+    width: 450px;
+    height: auto;
+    left: 12%;
+    top: 31%;
+    display: none;
+}
+
+.solution-text8-box {
+    position: absolute;
+    width: 590px;
+    height: auto;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: none;
+}
+
+.solution-text9-box {
+    position: absolute;
+    width: 590px;
+    height: auto;
+    top: 16%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: none;
+}
+
 .solution-control-opacity {
     position: absolute;
     width: 970px;
@@ -813,43 +948,7 @@ input::-webkit-input-placeholder {
     text-align: center;
 }
 
-/* kinds */
-.kinds-page1-content {
-    width: 100%;
-    height: 100%;
-}
 
-.kinds-pad-box {
-    position: absolute;
-    right: 50px;
-    bottom: 13%;
-    width: 522px;
-    height: 371px;
-    background: url(http://download.duckr.cn/vrschool/product/vr/Pad.png);
-    background-size: 100% 100%;
-    overflow: hidden;
-}
-
-.kinds-pad-arrow-box {
-    position: relative;
-    top: 158px;
-    width: 522px;
-    height: 54px;
-}
-
-.kinds-pad-left-arrow {
-    position: absolute;
-    width: 78px;
-    height: 54px;
-    left: 146px;
-}
-
-.kinds-pad-right-arrow {
-    position: absolute;
-    width: 78px;
-    height: 54px;
-    left: 327px;
-}
 
 /* news */
 
