@@ -18,7 +18,7 @@ class Kinds extends Component {
             return ;
         }
         this.state = {index: index};
-        $("#page1-bg").attr('src', 'http://download.duckr.cn/vrschool/product/vr/1_bg_3.png');
+        $("#page1-bg").attr('src', 'http://download.duckr.cn/vrschool/product/vr/1_bg_3_1.jpg');
         this.changeImg();
     }
     imgMinIndex() {
@@ -26,7 +26,7 @@ class Kinds extends Component {
         if (index < 0) {
             return ;
         }
-        $("#page1-bg").attr('src', 'http://download.duckr.cn/vrschool/product/vr/1_bg_2.png');
+        $("#page1-bg").attr('src', 'http://download.duckr.cn/vrschool/product/vr/1_bg_2_1.jpg');
         this.state = {index: index};
         this.changeImg();
     }
@@ -74,7 +74,7 @@ class Kinds extends Component {
             <section className="main">
                 <section className="page page1">
                     <HomeHeader /> 
-                    <img id="page1-bg" className="kinds-page1-content" src="http://download.duckr.cn/vrschool/product/vr/1_bg_1.png" />
+                    <img id="page1-bg" className="kinds-page1-content" src="http://download.duckr.cn/vrschool/product/vr/1_bg_2_1.jpg" />
                     <section className="kinds-pad-box">
                         <section className="kinds-pad-arrow-box">
                             <img id="kinds-left-arrow" onClick={this.imgMinIndex} src="http://download.duckr.cn/vrschool/product/vr/icon_L_nor.png" className="kinds-pad-left-arrow" />

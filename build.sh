@@ -71,3 +71,6 @@ mv -f build vr/contact_us
 cp -f scripts/index_scroll.html public/index.html
 sed -ie "s/Contact/Home/g" src/App.js 
 
+git add .
+git ci -m "上传build"
+git push origin develop

@@ -58,7 +58,7 @@ table {
 }
 
 .logo {
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 10px;
   margin-bottom: 13px;
   width: 211px;
@@ -98,19 +98,34 @@ table {
 }
 
 .for-school {
-  margin-left: 30px;
-  margin-top: 30px;
-  line-height: 42px;
-  height: 42px;
-  width: 6.25%;
-  text-align: center;
-  background-color: #f08300;
-  font-size: 20px;
-  color: #fff;
-  font-weight: lighter;
-  font-family: sans-serif;
-  cursor: pointer;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 42px;
+    height: 42px;
+    width: 6.25%;
+    text-align: center;
+    background-color: #f08300;
+    font-size: 16px;
+    color: #fff;
+    font-weight: lighter;
+    font-family: sans-serif;
+    cursor: pointer;
 }
+
+.for-dev {
+     margin-left: 5%;
+     margin-top: 30px;
+     line-height: 42px;
+     height: 42px;
+     width: 8%;
+     text-align: center;
+     background-color: #f08300;
+     font-size: 16px;
+     color: #fff;
+     font-weight: lighter;
+     font-family: sans-serif;
+     cursor: pointer;
+ }
 
 .for-school > a {
   text-decoration: none;
@@ -745,7 +760,9 @@ input::-webkit-input-placeholder {
     width: 166px;
     height: 30px;
     right: 24%;
-    top: 28%;
+    top: 18%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .solution-text1-box p {
@@ -757,9 +774,10 @@ input::-webkit-input-placeholder {
     position: absolute;
     width: 470px;
     height: 220px;
-    right: 8.8%;
+    right: 1.8%;
     bottom: 31.2%;
-    display: none;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .solution-text-title {
@@ -801,6 +819,7 @@ input::-webkit-input-placeholder {
     padding-top: 42px;
     font-family: SourceHanSansCN-Medium;
 }
+
 .solution-text3-box {
     position: absolute;
     width: 356px;
@@ -808,22 +827,24 @@ input::-webkit-input-placeholder {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 28%;
-    display: none;
+    top: 18%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .solution-text4-box {
     position: absolute;
     width: 570px;
     height: auto;
-    top: 18.6%;
+    top: 8.6%;
     left: 12.6%;
     padding-left: 25px;
     padding-top: 32px;
     padding-right: 25px;
     padding-bottom: 36px;
     background-color: rgba(255, 255, 255, 0.80);
-    display: none;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .solution-text5-box {
@@ -831,8 +852,9 @@ input::-webkit-input-placeholder {
     width: 380px;
     height: auto;
     left: 12%;
-    top: 30%;
-    display: none;
+    top: 20%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .solution-text6-box {
@@ -840,8 +862,9 @@ input::-webkit-input-placeholder {
     width: 590px;
     height: auto;
     right: 21%;
-    top: 14%;
-    display: none;
+    top: 4%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .solution-text7-box {
@@ -849,30 +872,33 @@ input::-webkit-input-placeholder {
     width: 450px;
     height: auto;
     left: 12%;
-    top: 31%;
-    display: none;
+    top: 21%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .solution-text8-box {
     position: absolute;
     width: 590px;
     height: auto;
-    top: 15%;
+    top: 5%;
     left: 0;
     right: 0;
     margin: 0 auto;
-    display: none;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .solution-text9-box {
     position: absolute;
     width: 590px;
     height: auto;
-    top: 16%;
+    top: 6%;
     left: 0;
     right: 0;
     margin: 0 auto;
-    display: none;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .solution-control-opacity {
@@ -1296,7 +1322,7 @@ input::-webkit-input-placeholder {
 @media screen and (max-width: 1366px) {
  .logo {
      margin-left: 7%;
-  width: auto;
+     width: auto;
  }
  .tab {
   font-size: 16px;
@@ -1306,7 +1332,7 @@ input::-webkit-input-placeholder {
   margin-left: 20%;
  }
  .for-school {
-     margin-left: 2%;
+     margin-left: 12%;
      margin-top: 30px;
      line-height: 42px;
      height: 42px;
@@ -1319,7 +1345,20 @@ input::-webkit-input-placeholder {
      font-family: sans-serif;
      cursor: pointer;
  }
-
+ .for-dev {
+     margin-left: 5%;
+     margin-top: 30px;
+     line-height: 42px;
+     height: 42px;
+     width: 8%;
+     text-align: center;
+     background-color: #f08300;
+     font-size: 16px;
+     color: #fff;
+     font-weight: lighter;
+     font-family: sans-serif;
+     cursor: pointer;
+ }
  .hero-content h1 {
      font-size: 50px;
  }

@@ -34,7 +34,45 @@ class SolutionControl extends Component {
         $("#control-img" + index).addClass("solution-stroke");
         $("#img-text" + index).show();
         var imgIndex = parseInt(index) + 1;
-        $("#solution-bg").attr('src', 'http://download.duckr.cn/vrschool/solution/Bg_' + imgIndex  + '.png');
+        $("#solution-bg").attr('src', 'http://download.duckr.cn/vrschool/solution/Bg_' + imgIndex  + '_1.jpg');
+        $("#img-text" + index).css('opacity', '1');
+        switch (imgIndex) {
+            case 1:
+                $('#img-text0').css('top', '28%');
+                break;
+            case 2:
+                $('#img-text1').css('right', '8.8%');
+                break;
+            case 3:
+                $('#img-text2').css('top', '28%');
+                break;
+            case 4:
+                $('#img-text3').css('top', '18.6%');
+                break;
+            case 5:
+                $('#img-text4').css('top', '30%');
+                break;
+            case 6:
+                $('#img-text5').css('top', '14%');
+                break;
+            case 7:
+                $('#img-text6').css('top', '31%');
+                break;
+            case 8:
+                $('#img-text7').css('top', '15%');
+                break;
+            case 9:
+                $('#img-text8').css('top', '16%');
+                break;
+            default:
+                break;
+        }
+    }
+    componentDidMount() {
+        $(document).ready(function(){
+            $('.solution-text1-box').css('opacity', '1')
+            $('.solution-text1-box').css('top', '28%')
+        });
     }
     render() {
         var imgId = "control-img" + this.props.data;
@@ -54,7 +92,7 @@ class Solution extends Component {
           <section className="home">
             <HomeHeader />
             <section className="solution-container-box">
-                <img id="solution-bg" src="http://download.duckr.cn/vrschool/solution/Bg_1.png" /> 
+                <img id="solution-bg" src="http://download.duckr.cn/vrschool/solution/Bg_1_1.jpg" /> 
                 <section className="solution-control-opacity">
                 </section>
                 <section id="img-text0" className="solution-text1-box">
