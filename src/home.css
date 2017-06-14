@@ -55,6 +55,7 @@ table {
   display: -o-flex;
   display: flex;
   height: 88px;
+  z-index: 1000;
 }
 
 .logo {
@@ -80,6 +81,7 @@ table {
   line-height: 20px;
   padding-bottom: 10px;
   cursor: pointer;
+  z-index: 11;
 }
 
 
@@ -683,6 +685,7 @@ input::-webkit-input-placeholder {
 .content-image1-box {
     width: 100%;
     height: auto;
+    padding-top: 98px;
     margin: 0 0 70px 0;
 	display: flex;
 	display: -webkit-flex;
@@ -748,6 +751,8 @@ input::-webkit-input-placeholder {
 .solution-container-box {
     width: 100%;
     height: auto;
+    overflow: hidden;
+    position: relative;
 }
 
 .solution-container-box img {
@@ -760,7 +765,7 @@ input::-webkit-input-placeholder {
     width: 166px;
     height: 30px;
     right: 24%;
-    top: 18%;
+    top: 9%;
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }
@@ -827,7 +832,7 @@ input::-webkit-input-placeholder {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 18%;
+    top: 9%;
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }
@@ -836,7 +841,7 @@ input::-webkit-input-placeholder {
     position: absolute;
     width: 570px;
     height: auto;
-    top: 8.6%;
+    top: 0%;
     left: 12.6%;
     padding-left: 25px;
     padding-top: 32px;
@@ -852,7 +857,7 @@ input::-webkit-input-placeholder {
     width: 380px;
     height: auto;
     left: 12%;
-    top: 20%;
+    top: 11%;
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }
@@ -862,7 +867,7 @@ input::-webkit-input-placeholder {
     width: 590px;
     height: auto;
     right: 21%;
-    top: 4%;
+    top: 0%;
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }
@@ -872,7 +877,7 @@ input::-webkit-input-placeholder {
     width: 450px;
     height: auto;
     left: 12%;
-    top: 21%;
+    top: 12%;
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }
@@ -881,7 +886,7 @@ input::-webkit-input-placeholder {
     position: absolute;
     width: 590px;
     height: auto;
-    top: 5%;
+    top: 0%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -893,7 +898,7 @@ input::-webkit-input-placeholder {
     position: absolute;
     width: 590px;
     height: auto;
-    top: 6%;
+    top: 0%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -952,6 +957,13 @@ input::-webkit-input-placeholder {
     opacity:0.7;  
     -moz-opacity:0.7;
     -khtml-opacity: 0.7;
+}
+
+.solution-big-stroke {
+    border: 1px solid #f08300;
+    border-radius: 55px;
+    -moz-border-radius: 55px;
+    -webkit-border-radius: 55px;
 }
 
 .solution-stroke {

@@ -16,13 +16,19 @@ class SolutionControl extends Component {
     }
     smallImage(index) {
         var imgIndex = parseInt(index) + 1;
-        $("#control-img" + index).addClass("solution-opacity");
+        if (!$("#control-img" + index).hasClass("solution-big-stroke")) {
+            $("#control-img" + index).addClass("solution-opacity");
+        }
         $("#control-img" + index).attr('src', 'http://download.duckr.cn/vrschool/solution/btn_' + imgIndex + '_selected.png');
         $("#control-img" + index).width(70);
         $("#control-img" + index).height(70);
         $("#control-img" + index).css("top", 30);
         $("#control-img" + index).css("left", 15);
         $("#control-p" + index).css("bottom", 25);
+        if ($("#control-img" + index).hasClass("solution-big-stroke")) {
+            $("#control-img" + index).removeClass("solution-big-stroke");
+            $("#control-img" + index).addClass("solution-stroke");
+        }
     }
     imageClick(index) {
         for (var i = 0; i < 9; ++i) {
@@ -31,38 +37,38 @@ class SolutionControl extends Component {
             $("#img-text" + i).hide();
         }
         $("#control-img" + index).removeClass("solution-opacity");
-        $("#control-img" + index).addClass("solution-stroke");
+        $("#control-img" + index).addClass("solution-big-stroke");
         $("#img-text" + index).show();
         var imgIndex = parseInt(index) + 1;
         $("#solution-bg").attr('src', 'http://download.duckr.cn/vrschool/solution/Bg_' + imgIndex  + '_1.jpg');
         $("#img-text" + index).css('opacity', '1');
         switch (imgIndex) {
             case 1:
-                $('#img-text0').css('top', '28%');
+                $('#img-text0').css('top', '19%');
                 break;
             case 2:
                 $('#img-text1').css('right', '8.8%');
                 break;
             case 3:
-                $('#img-text2').css('top', '28%');
+                $('#img-text2').css('top', '19%');
                 break;
             case 4:
-                $('#img-text3').css('top', '18.6%');
+                $('#img-text3').css('top', '9%');
                 break;
             case 5:
-                $('#img-text4').css('top', '30%');
+                $('#img-text4').css('top', '21%');
                 break;
             case 6:
-                $('#img-text5').css('top', '14%');
+                $('#img-text5').css('top', '5%');
                 break;
             case 7:
-                $('#img-text6').css('top', '31%');
+                $('#img-text6').css('top', '22%');
                 break;
             case 8:
-                $('#img-text7').css('top', '15%');
+                $('#img-text7').css('top', '6%');
                 break;
             case 9:
-                $('#img-text8').css('top', '16%');
+                $('#img-text8').css('top', '7%');
                 break;
             default:
                 break;
@@ -72,6 +78,8 @@ class SolutionControl extends Component {
         $(document).ready(function(){
             $('.solution-text1-box').css('opacity', '1')
             $('.solution-text1-box').css('top', '28%')
+            $('#control-img0').addClass('solution-stroke');
+            $('#control-img0').removeClass('solution-opacity');
         });
     }
     render() {

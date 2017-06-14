@@ -15,7 +15,7 @@ class ProductIes extends Component {
             IES沉浸式教育系统
             </p>
             <p className="ies-top-text1">
-            IES：云端技术支持，实现云端课程库，学生行为数据分析，
+            IEC：云端技术支持，实现云端课程库，学生行为数据分析，
             教学环境远程传递
             </p>
             <p className="ies-top-text2">

@@ -9,11 +9,6 @@ class Content extends Component {
       <section className="home">
         <HomeHeader />
         <section className="content-container-box">
-            <section className="content-header-box">
-                <p>应用</p>
-                <section className="content-header-line">
-                </section>
-            </section> 
             <section className="content-image1-box">
                 <section className="content-image1-left-box">
                     <p className="title">桥的形状和结构</p>
