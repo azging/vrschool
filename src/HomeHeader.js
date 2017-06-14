@@ -44,22 +44,22 @@ class HomeHeader extends Component {
         }
     }
     jumpHome() {
-        window.location.href = process.env.PUBLIC_URL;
+        window.location.href = 'http://123.57.53.5/vr/';
     }
     jumpProduct() {
-        window.location.href = process.env.PUBLIC_URL + 'product/';
+        window.location.href = 'http://123.57.53.5/vr/' + 'product/';
     }
     jumpSolution() {
-        window.location.href = process.env.PUBLIC_URL + 'total_solution/';
+        window.location.href = 'http://123.57.53.5/vr/' + 'total_solution/';
     }
     jumpContent() {
-        window.location.href = process.env.PUBLIC_URL + 'content_details/';
+        window.location.href = 'http://123.57.53.5/vr/' + 'content_details/';
     }
     jumpNews() {
-        window.location.href = process.env.PUBLIC_URL + 'news/';
+        window.location.href = 'http://123.57.53.5/vr/' + 'news/';
     }
     jumpContact() {
-        window.location.href = process.env.PUBLIC_URL + 'contact_us/';
+        window.location.href = 'http://123.57.53.5/vr/' + 'contact_us/';
     }
     componentDidMount() {
         (function () {
@@ -80,7 +80,7 @@ class HomeHeader extends Component {
         })();
     }
     render() {
-        var loginUrl = process.env.PUBLIC_URL + 'login/';
+        var loginUrl = 'http://123.57.53.5/vr/' + 'login/';
         var devUrl = 'http://developer.wizsch.com/';
         return (
             <header>
