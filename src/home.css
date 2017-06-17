@@ -54,34 +54,33 @@ table {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-  height: 88px;
+  width: 1920px;
+  height: 70px;
   z-index: 1000;
 }
 
 .logo {
-  margin-left: 5%;
-  margin-top: 10px;
-  margin-bottom: 13px;
-  width: 211px;
-  height: 65px;
-  height: auto;
-}
-
-.tab1 {
-  margin-left: 26%;
+    margin-left: 93px;
+    margin-top: 13px;
+    margin-bottom: 11px;
+    margin-right: 626px;
+    width: 148px;
+    height: 46px;
 }
 
 .tab {
-  margin-right: 2.5%;
-  margin-top: 31px;
-  padding-top: 10px;
-  font-size: 20px;
-  color: #212121;
-  height: 20px;
-  line-height: 20px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 24px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 16px;
+  color: #333333;
+  width: auto;
+  height: 16px;
+  line-height: 16px;
   cursor: pointer;
   z-index: 11;
+  display: inline;
 }
 
 
@@ -100,11 +99,13 @@ table {
 }
 
 .for-school {
-    margin-left: 30px;
-    margin-top: 30px;
-    line-height: 42px;
-    height: 42px;
-    width: 6.25%;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    margin-left: 90px;
+    margin-right: 16px;
+    line-height: 40px;
+    width: 100px;
+    height: 40px;
     text-align: center;
     background-color: #f08300;
     font-size: 16px;
@@ -115,18 +116,24 @@ table {
 }
 
 .for-dev {
-     margin-left: 5%;
-     margin-top: 30px;
-     line-height: 42px;
-     height: 42px;
-     width: 8%;
-     text-align: center;
-     background-color: #f08300;
-     font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    margin-left: 16px;
+    line-height: 40px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: #f08300;
+    font-size: 16px;
+    color: #fff;
+    font-weight: lighter;
+    font-family: sans-serif;
+    cursor: pointer;
+ }
+
+ .for-dev > a {
+     text-decoration: none;
      color: #fff;
-     font-weight: lighter;
-     font-family: sans-serif;
-     cursor: pointer;
  }
 
 .for-school > a {
@@ -244,7 +251,14 @@ table {
 
 
 @media screen and  (max-width: 1845px) {
-
+    .logo {
+        margin-left: 93px;
+        margin-top: 13px;
+        margin-bottom: 11px;
+        margin-right: 551px;
+        width: 148px;
+        height: 46px;
+    }
   .join {
     right: 30px;
   }
@@ -257,7 +271,14 @@ table {
 }
 
 @media screen and  (max-width: 1600px) {
-
+    .logo {
+        margin-left: 93px;
+        margin-top: 13px;
+        margin-bottom: 11px;
+        margin-right: 306px;
+        width: 148px;
+        height: 46px;
+    }
   .join {
     right: 20px;
   }
@@ -1332,45 +1353,14 @@ input::-webkit-input-placeholder {
 
 
 @media screen and (max-width: 1366px) {
- .logo {
-     margin-left: 7%;
-     width: auto;
- }
- .tab {
-  font-size: 16px;
-  margin-right: 1.5%;
- }
- .tab1 {
-  margin-left: 20%;
- }
- .for-school {
-     margin-left: 12%;
-     margin-top: 30px;
-     line-height: 42px;
-     height: 42px;
-     width: 8%;
-     text-align: center;
-     background-color: #f08300;
-     font-size: 16px;
-     color: #fff;
-     font-weight: lighter;
-     font-family: sans-serif;
-     cursor: pointer;
- }
- .for-dev {
-     margin-left: 5%;
-     margin-top: 30px;
-     line-height: 42px;
-     height: 42px;
-     width: 8%;
-     text-align: center;
-     background-color: #f08300;
-     font-size: 16px;
-     color: #fff;
-     font-weight: lighter;
-     font-family: sans-serif;
-     cursor: pointer;
- }
+.logo {
+    margin-left: 93px;
+    margin-top: 13px;
+    margin-bottom: 11px;
+    margin-right: 72px;
+    width: 148px;
+    height: 46px;
+}
  .hero-content h1 {
      font-size: 50px;
  }
