@@ -21,8 +21,11 @@ class Home extends Component {
       $(".hero-content > h1").css('margin-top', '250px');
       $('.hero-content > h2').css('opacity', '1')
       $(".hero-content > h2").css('margin-top', '40px');
-      $('.vr-glass').css('opacity', '1')
-      $(".vr-glass").css('margin-top', '160px');
+      setTimeout(
+      		() => { $('.vr-glass').css('opacity', '1'); $(".vr-glass").css('margin-top', '160px'); },
+      		800
+      );
+      
       $('.hero .down-arrow2').css('top', '0')
       $('.hero .down-arrow').mouseover(function(){
         $(".hero .down-arrow2").css("top","102px");

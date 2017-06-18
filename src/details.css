@@ -74,7 +74,7 @@ table {
 }
 .nav-box > .detail-nav {
     font-family: SourceHanSansCN-Regular;
-    font-size: 30px;
+    font-size: 20px;
     color: #999999;
 }
 .nav-box > .detail-nav .current-nav {
@@ -92,26 +92,30 @@ table {
 }
 .content-box .news-title {
     font-family: SourceHanSansCN-Regular;
-    font-size: 60px;
+    font-size: 35px;
     color: #333333;
     text-align: center;
-    margin-bottom: 88px;
-    line-height: 94px;
+    padding-bottom: 35px;
+    line-height: 53px;
+    width: 508px;
+    margin: 0 auto;
 }
 .content-box .news-content > img {
     display: block;
     width: 80%;
     height: auto;
-    padding-bottom: 72px;
+    padding-bottom: 40px;
     margin: 0 auto;
 }
 .content-box .news-content > p {
     font-family: SourceHanSansCN-Regular;
-    font-size: 30px;
+    font-size: 20px;
     color: #333333;
     text-align: justify;
-    margin: 8px 0 54px;
-    line-height: 48px;
+    margin: 8px 0 40px;
+    padding-left: 234px;
+    padding-right: 234px;
+    line-height: 40px;
 }
 
 
@@ -120,13 +124,13 @@ table {
         top: -180px;
     }
     .nav-box > .detail-nav {
-        font-size: 26px;
+        font-size: 16px;
     }
     .nav-box > .detail-time {
         font-size: 26px;
     }
     .content-box .news-title {
-        font-size: 52px;
+        font-size: 27px;
     }
     .content-box .news-content > p {
         font-size: 26px;
@@ -139,13 +143,13 @@ table {
         top: -140px;
     }
     .nav-box > .detail-nav {
-        font-size: 22px;
+        font-size: 12px;
     }
     .nav-box > .detail-time {
         font-size: 22px;
     }
     .content-box .news-title {
-        font-size: 44px;
+        font-size: 19px;
     }
     .content-box .news-content > p {
         font-size: 22px;
