@@ -31,7 +31,7 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
-  <script type="text/javascript" src="/static/js/main.78907ca1.js"></script></body>
+  <script type="text/javascript" src="/static/js/main.41322e60.js"></script></body>
   <script>
     $(function(){
         function bindArrow(section) {
@@ -193,13 +193,6 @@
             }
           }
         });
-        var arr = window.location.href.split("#");
-        console.log('i come');
-        if (2 == arr.length) {
-            console.log('i come 2 ... ' + arr[1]);
-            $('.main').moveTo(parseInt(arr[1]));
-            console.log('i come 3 ... ' + arr[1]);
-        }
     });
   </script>
 </html>
