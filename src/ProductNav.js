@@ -9,7 +9,9 @@ class ProductNav extends Component {
     render() {
         var baseUrl = 'http://123.57.53.5/vr/';
         var iesUrl = baseUrl + 'product/ies/';
-        var kindsUrl = baseUrl + 'product/kinds/';
+        var kindsUrl0 = baseUrl + 'product/kinds/';
+        var kindsUrl1 = baseUrl + 'product/kinds/#1';
+        var kindsUrl2 = baseUrl + 'product/kinds/#2';
         return (
           <section className="nav">
             <section id="product-subnav" onMouseLeave={this.hideNav} className="product-subnav">
@@ -18,17 +20,17 @@ class ProductNav extends Component {
                 <img src="http://download.duckr.cn/vrschool/nav/subnav_product_1_icon.png" alt="" className="subnav-icon"/>
                 <p className="subnav-title">IES系统</p>
               </a>
-              <a href={kindsUrl} className="subnav-item" id="subnav-item2">
+              <a href={kindsUrl0} className="subnav-item" id="subnav-item2">
                 <div className="mask"></div>
                 <img src="http://download.duckr.cn/vrschool/nav/subnav_product_2_icon.png" alt="" className="subnav-icon"/>
                 <p className="subnav-title">VR课堂</p>
               </a>
-              <a href={kindsUrl} className="subnav-item" id="subnav-item3">
+              <a href={kindsUrl1} className="subnav-item" id="subnav-item3">
                 <div className="mask"></div>
                 <img src="http://download.duckr.cn/vrschool/nav/subnav_product_3_icon.png" alt="" className="subnav-icon"/>
                 <p className="subnav-title">VR互动教室</p>
               </a>
-              <a href={kindsUrl} className="subnav-item" id="subnav-item4">
+              <a href={kindsUrl2} className="subnav-item" id="subnav-item4">
                 <div className="mask"></div>
                 <img src="http://download.duckr.cn/vrschool/nav/subnav_product_4_icon.png" alt="" className="subnav-icon"/>
                 <p className="subnav-title">VR实训空间</p>

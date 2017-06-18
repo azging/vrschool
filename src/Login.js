@@ -28,8 +28,16 @@ class PicText extends Component {
 }
 
 class Login extends Component {
-    componentDidMount() {
+    clickLogin() {
+        $(".login-middle-input-hint").show();
+		setTimeout(
+      		() => { $(".login-middle-input-hint").hide(); },
+      		3000	
+    	);
     }
+    
+    componentDidMount() {
+	}
     render() {
         return (
             <section className="login-box">
@@ -52,7 +60,7 @@ class Login extends Component {
                             </section>
                             <input className="login-middle-input-right" placeholder="密码" type="password"/>
                         </section>
-                        <button className="login-middle-input-button">
+                        <button onClick={this.clickLogin} className="login-middle-input-button">
                         登录
                         </button>
                         <p className="login-middle-input-hint">用户名错误</p>
