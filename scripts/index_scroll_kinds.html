@@ -42,14 +42,6 @@
         if (2 == arr.length) {
             $('.main').moveTo(parseInt(arr[1]));
         }
-        if(("onhashchange" in window) && ((typeof document.documentMode==="undefined") || document.documentMode==8)) { 
-            //浏览器支持onhashchange事件 
-            window.onhashchange = hashChangeFire; 
-            var arr = window.location.href.split("#");
-            if (2 == arr.length) {
-                $('.main').moveTo(parseInt(arr[1]));
-            }
-        }
     });
   </script>
 </html>

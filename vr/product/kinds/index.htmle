@@ -31,7 +31,7 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
-  <script type="text/javascript" src="/static/js/main.a3d26561.js"></script></body>
+  <script type="text/javascript" src="/static/js/main.69e9cdab.js"></script></body>
   <script>
     $(function(){
         $('.main').onepage_scroll({
@@ -41,14 +41,6 @@
         var arr = window.location.href.split("#");
         if (2 == arr.length) {
             $('.main').moveTo(parseInt(arr[1]));
-        }
-        if(("onhashchange" in window) && ((typeof document.documentMode==="undefined") || document.documentMode==8)) { 
-            //浏览器支持onhashchange事件 
-            window.onhashchange = hashChangeFire; 
-            var arr = window.location.href.split("#");
-            if (2 == arr.length) {
-                $('.main').moveTo(parseInt(arr[1]));
-            }
         }
     });
   </script>
