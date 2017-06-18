@@ -10,16 +10,19 @@ class ProductNav extends Component {
         var baseUrl = 'http://123.57.53.5/vr/';
         var kindsUrl1 = baseUrl + 'product/kinds/index.html#1';
         window.location.href=kindsUrl1;
+        window.location.reload();
     }
     showKind2() {
         var baseUrl = 'http://123.57.53.5/vr/';
         var kindsUrl2 = baseUrl + 'product/kinds/index.html#2';
         window.location.href=kindsUrl2;
+        window.location.reload();
     }
     showKind3() {
         var baseUrl = 'http://123.57.53.5/vr/';
         var kindsUrl3 = baseUrl + 'product/kinds/index.html#3';
         window.location.href=kindsUrl3;
+        window.location.reload();
     }
     render() {
         var baseUrl = 'http://123.57.53.5/vr/';
