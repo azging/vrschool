@@ -88,7 +88,7 @@ table {
 }
 
 .content-box {
-    padding: 114px 66px 28px;
+    padding: 123px 66px 28px;
 }
 .content-box .news-title {
     font-family: SourceHanSansCN-Regular;
@@ -97,7 +97,7 @@ table {
     text-align: center;
     padding-bottom: 35px;
     line-height: 53px;
-    width: 508px;
+    width: 510px;
     margin: 0 auto;
 }
 .content-box .news-content > img {
@@ -113,8 +113,8 @@ table {
     color: #333333;
     text-align: justify;
     margin: 8px 0 40px;
-    padding-left: 234px;
-    padding-right: 234px;
+    padding-left: 12.2%;
+    padding-right: 12.2%;
     line-height: 40px;
 }
 

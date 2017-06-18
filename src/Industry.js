@@ -40,19 +40,19 @@ class Industry extends Component {
                 <img className="news-top-slider-bg" src="http://download.duckr.cn/vrschool/news/Slider2.png" />
                 <section className="news-middle-box">
                     <section className="news-middle-content-box">
-                        <PicText data="http://download.duckr.cn/vrschool/industry/banner1.png" title="几年后才有真正的虚拟现实？" type="2" href="http://123.57.53.5/vr/details/detail9.html" />
-                        <PicText data="http://download.duckr.cn/vrschool/industry/banner2.png" title="微软公布华硕的新头显和戴尔的新设计" type="2" href="http://123.57.53.5/vr/details/detail10.html" />
+                        <PicText data="http://download.duckr.cn/vrschool/industry/banner1.png" title="几年后才有真正的虚拟现实？" type="2" href="http://123.57.53.5/vr/details/detail9/" />
+                        <PicText data="http://download.duckr.cn/vrschool/industry/banner2.png" title="微软公布华硕的新头显和戴尔的新设计" type="2" href="http://123.57.53.5/vr/details/detail10/" />
                     </section>
                 </section>
                 <section className="news-footer-box1">
-                        <PicText data="http://download.duckr.cn/vrschool/industry/banner3.png" title="沉浸的艺术 细数全球四类虚拟现实软件" type="3" href="http://123.57.53.5/vr/details/detail11.html" />
-                        <PicText data="http://download.duckr.cn/vrschool/industry/banner4.png" title="虚拟现实(VR)：下一个时代的开启？" type="3" href="http://123.57.53.5/vr/details/detail12.html" />
-                        <PicText data="http://download.duckr.cn/vrschool/industry/banner5.png" title="虚拟现实和增强现实 谁才是未来？" type="3" href="http://123.57.53.5/vr/details/detail13.html" />
+                        <PicText data="http://download.duckr.cn/vrschool/industry/banner3.png" title="沉浸的艺术 细数全球四类虚拟现实软件" type="3" href="http://123.57.53.5/vr/details/detail11/" />
+                        <PicText data="http://download.duckr.cn/vrschool/industry/banner4.png" title="虚拟现实(VR)：下一个时代的开启？" type="3" href="http://123.57.53.5/vr/details/detail12/" />
+                        <PicText data="http://download.duckr.cn/vrschool/industry/banner5.png" title="虚拟现实和增强现实 谁才是未来？" type="3" href="http://123.57.53.5/vr/details/detail13/" />
                 </section>
                 <section className="news-footer-box2">
-                        <PicText data="http://download.duckr.cn/vrschool/industry/banner6.jpg" title="中国的ARVR产业链已经做到世界级" type="3" href="http://123.57.53.5/vr/details/detail14.html" />
-                        <PicText data="http://download.duckr.cn/vrschool/industry/banner7.png" title="VR教育：新加坡利用VR宣传道路交通安全" type="3" href="http://123.57.53.5/vr/details/detail15.html" />
-                        <PicText data="http://download.duckr.cn/vrschool/industry/banner8.jpg" title="VR虚拟现实技术在教育领域的前景展望" type="3" href="http://123.57.53.5/vr/details/detail16.html" />
+                        <PicText data="http://download.duckr.cn/vrschool/industry/banner6.jpg" title="中国的ARVR产业链已经做到世界级" type="3" href="http://123.57.53.5/vr/details/detail14/" />
+                        <PicText data="http://download.duckr.cn/vrschool/industry/banner7.png" title="VR教育：新加坡利用VR宣传道路交通安全" type="3" href="http://123.57.53.5/vr/details/detail15/" />
+                        <PicText data="http://download.duckr.cn/vrschool/industry/banner8.jpg" title="VR虚拟现实技术在教育领域的前景展望" type="3" href="http://123.57.53.5/vr/details/detail16/" />
                 </section>
                 <HomeFooter />
             </section>
