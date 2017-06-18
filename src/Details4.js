@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './details.css';
 var $ = require('jquery');
+import HomeHeader from './HomeHeader.js';
+import HomeFooter from './HomeFooter.js';
 
 class Details extends Component {
   render() {
     return (
       <section class="detail">
+        <HomeHeader />
         <section className="top-bg">
           <img src="http://download.duckr.cn/vrschool/details/slider1.png" className="top-image"/>
         </section>
@@ -40,6 +43,7 @@ class Details extends Component {
             </section>
           </section>
         </section>
+        <HomeFooter />
       </section>
     );
   }

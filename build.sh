@@ -148,7 +148,7 @@ sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
 mv -f build vr/details/details15
 
-sed -ie "s/Details15/Details116/g" src/App.js 
+sed -ie "s/Details15/Details16/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
