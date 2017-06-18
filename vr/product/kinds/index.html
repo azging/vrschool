@@ -39,7 +39,9 @@
           loop: false,
         });
         var arr = window.location.href.split("#");
+        console.log('i come');
         if (2 == arr.length) {
+            console.log('i come 2 ... ' + arr[1]);
             $('.main').moveTo(arr[1]);
         }
     });
