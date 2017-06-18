@@ -60,14 +60,13 @@ sed -ie "s/Industry/Details1/g" src/App.js
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details
-mv -f vr/details/index.html vr/details/details1.html
+mv -f build vr/details1
 
 sed -ie "s/Details1/Details2/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build/index.html vr/details/details2.html
+mv -f build vr/details2
 
 sed -ie "s/Details2/Contact/g" src/App.js 
 yarn build
