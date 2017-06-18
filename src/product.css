@@ -252,6 +252,14 @@ table {
     overflow: hidden;
 }
 
+.kinds-kids-img {
+    position: absolute;
+    bottom: 0;
+    left: 19.8%;
+    width: 860px;
+    height: auto;
+}
+
 .kinds-pad-arrow-box {
     position: relative;
     top: 158px;

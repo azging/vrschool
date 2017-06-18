@@ -81,6 +81,7 @@ class Kinds extends Component {
                             <img id="kinds-right-arrow" onClick={this.imgAddIndex} src="http://download.duckr.cn/vrschool/product/vr/icon_R_s.png" className="kinds-pad-right-arrow" />
                         </section>
                     </section>
+                    <img src="http://download.duckr.cn/vrschool/product/vr/image.png" className="kinds-kids-img" />
                     <section className="kinds-text1-box">
                         <p className="kinds-text1-p1">VR课堂</p>
                         <p className="kinds-text1-p2">真正能上课的移动端VR课堂。教师一键操控，自由掌控；学生沉浸体验，锁定注意力</p>

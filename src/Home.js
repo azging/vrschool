@@ -101,7 +101,7 @@ class Home extends Component {
           <div className="city-name city-name24">柳州</div>
         </section>
         <h1>微视酷VR教育</h1>
-        <h2>遍布全国课堂，师生共创体验式教学的精彩！</h2>
+        <h2>遍布全国课堂，师生共创<br />体验式教学的精彩！</h2>
         <img src="http://download.duckr.cn/vrschool/home/girl.png" alt="" className="child" />
         <img src="http://download.duckr.cn/vrschool/home/P3_image2.png" alt="" className="border" />
         <div className="down-arrow">

@@ -149,29 +149,29 @@ table {
 }
 
 .hero-content > h1 {
-  margin-top: 100%;
-    opacity: 0;
+  margin-top: 310px;
+  opacity: 0;
   color: #fff;
   font-size: 60px;
-    transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 .hero-content > h2 {
   font-family: sans-serif;
-  margin-top: 100%;
-    opacity: 0;
+  margin-top: 40px;
+  opacity: 0;
   color: #fff;
   font-size: 36px;
   font-weight: 200;
-    transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 .vr-glass {
     position: absolute;
     left: 0;
     right: 0;
-  margin: 0 auto;
-  margin-top: 100%;
+    margin: 0 auto;
+    margin-top: 100%;
     z-index: 60;
     opacity: 0;
     transition: all 0.8s ease-in-out;
@@ -1143,8 +1143,7 @@ input::-webkit-input-placeholder {
 .child {
   position: absolute;
   left: 20%;
-    height: 50%;
-  bottom: 0;
+  bottom: 0px;
   opacity: 0;
   z-index: 15;
   transition: all 0.8s ease-in-out;
