@@ -32,17 +32,17 @@ class ProductNav extends Component {
                 <img src="http://download.duckr.cn/vrschool/nav/subnav_product_1_icon.png" alt="" className="subnav-icon"/>
                 <p className="subnav-title">IES系统</p>
               </a>
-              <a href={this.showKind1} className="subnav-item" id="subnav-item2">
+              <a onClick={this.showKind1} className="subnav-item" id="subnav-item2">
                 <div className="mask"></div>
                 <img src="http://download.duckr.cn/vrschool/nav/subnav_product_2_icon.png" alt="" className="subnav-icon"/>
                 <p className="subnav-title">VR课堂</p>
               </a>
-              <a href={this.showkind2} className="subnav-item" id="subnav-item3">
+              <a onClick={this.showKind2} className="subnav-item" id="subnav-item3">
                 <div className="mask"></div>
                 <img src="http://download.duckr.cn/vrschool/nav/subnav_product_3_icon.png" alt="" className="subnav-icon"/>
                 <p className="subnav-title">VR互动教室</p>
               </a>
-              <a href={this.showKind3} className="subnav-item" id="subnav-item4">
+              <a onClick={this.showKind3} className="subnav-item" id="subnav-item4">
                 <div className="mask"></div>
                 <img src="http://download.duckr.cn/vrschool/nav/subnav_product_4_icon.png" alt="" className="subnav-icon"/>
                 <p className="subnav-title">VR实训空间</p>
