@@ -22,6 +22,11 @@ class HomeHeader extends Component {
         target.style.borderColor = '#f08300';
         target.style.transform = "none";
     }
+    mouseLeave(index) {
+        if (index != this.props.data) {
+            this.jumpTarget(this.props.data);
+        }
+    }
     mouseEnter(index) {
         if (1 == index) {
             $("#product-nav").show();
@@ -85,7 +90,8 @@ class HomeHeader extends Component {
             window.addEventListener("resize", resizeFunc);
         })();
         var winWidth = $(window).width();
-        var right = 626 - (1920 - winWidth);
+        var right = (winWidth - 1053) - 93 - 148;
+        alert(right);
         if (right < 10) {
             right = 10;
         }
@@ -101,12 +107,12 @@ class HomeHeader extends Component {
             <header>
                 <nav className="hero-nav mynav">
                     <img src="http://download.duckr.cn/vrschool/home/topLogo.png" alt="" className="logo" />
-                    <div onMouseEnter={this.mouseEnter.bind(this, 0)} onClick={this.jumpHome} className="tab">首页</div>
-                    <div onMouseEnter={this.mouseEnter.bind(this, 1)} onClick={this.jumpProduct} className="tab">产品</div>
-                    <div onMouseEnter={this.mouseEnter.bind(this, 2)} onClick={this.jumpSolution} className="tab">解决方案</div>
-                    <div onMouseEnter={this.mouseEnter.bind(this, 3)} onClick={this.jumpContent} className="tab">应用</div>
-                    <div onMouseEnter={this.mouseEnter.bind(this, 4)} onClick={this.jumpNews} className="tab">新闻动态</div>
-                    <div onMouseEnter={this.mouseEnter.bind(this, 5)} onClick={this.jumpContact} className="tab" id="contact-us">联系我们</div>
+                    <div onMouseEnter={this.mouseEnter.bind(this, 0)} onMouseLeave={this.mouseLeave.bind(this, 0)} onClick={this.jumpHome} className="tab">首页</div>
+                    <div onMouseEnter={this.mouseEnter.bind(this, 1)} onMouseLeave={this.mouseLeave.bind(this, 1)} onClick={this.jumpProduct} className="tab">产品</div>
+                    <div onMouseEnter={this.mouseEnter.bind(this, 2)} onMouseLeave={this.mouseLeave.bind(this, 2)} onClick={this.jumpSolution} className="tab">解决方案</div>
+                    <div onMouseEnter={this.mouseEnter.bind(this, 3)} onMouseLeave={this.mouseLeave.bind(this, 3)} onClick={this.jumpContent} className="tab">应用</div>
+                    <div onMouseEnter={this.mouseEnter.bind(this, 4)} onMouseLeave={this.mouseLeave.bind(this, 4)} onClick={this.jumpNews} className="tab">新闻动态</div>
+                    <div onMouseEnter={this.mouseEnter.bind(this, 5)} onMouseLeave={this.mouseLeave.bind(this, 5)} onClick={this.jumpContact} className="tab" id="contact-us">联系我们</div>
                     <div className="for-school"><a href={loginUrl}>学校登录</a></div>
                     <div className="for-dev"><a href={devUrl}>开发者</a></div>
                     <span className="target"></span>

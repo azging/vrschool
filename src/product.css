@@ -181,6 +181,10 @@ table {
     line-height: 33px;
 }
 
+.ies-login-school:hover {
+    opacity: 0.8;
+}
+
 .ies-login-school {
     position: absolute;
     left: 0;
