@@ -47,6 +47,15 @@ table {
 .hero {
 }
 
+.nav-right-box {
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 93px;
+	display: flex;
+	display: -webkit-flex;
+}
+
 .hero-nav {
   background-color: #fff;
   display: -webkit-flex;
@@ -63,7 +72,6 @@ table {
     margin-left: 93px;
     margin-top: 13px;
     margin-bottom: 11px;
-    margin-right: 626px;
     width: 148px;
     height: 46px;
 }
