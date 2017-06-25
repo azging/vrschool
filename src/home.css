@@ -1563,7 +1563,7 @@ input::-webkit-input-placeholder {
 }
 
 .home-bottom-split-box {
-    position: absolute;
+    position: relative;
     bottom: 0px;
     width: 100%;
     height: auto;

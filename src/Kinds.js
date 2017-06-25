@@ -72,7 +72,7 @@ class Kinds extends Component {
         var index = 0;
         return (
             <section className="main">
-                <section className="page page1">
+                <section className="section page1">
                     <HomeHeader /> 
                     <img id="page1-bg" className="kinds-page1-content" src="http://download.duckr.cn/vrschool/product/vr/1_bg_2_1.jpg" />
                     <section className="kinds-pad-box">
@@ -92,7 +92,7 @@ class Kinds extends Component {
                         <p className="kinds-text1-p4">服务：教师培训、系统维护</p>
                     </section>
                 </section>
-                <section className="page page2">
+                <section className="section page2">
                     <img className="kinds-page1-content" src="http://download.duckr.cn/vrschool/product/vr/2_bg.png" />
                     <section className="kinds-text2-box">
                         <p className="kinds-text1-p1">VR互动教室</p>
@@ -104,7 +104,7 @@ class Kinds extends Component {
                         <p className="kinds-text1-p4">服务：免费培训、系统维护、云端升级</p>
                     </section>
                 </section>
-                <section className="page page3">
+                <section className="section page3">
                     <img className="kinds-page1-content" src="http://download.duckr.cn/vrschool/product/vr/3_bg_0.png" />
                     <section className="kinds-text3-box">
                         <p className="kinds-text1-p1">VR实训空间</p>
@@ -117,7 +117,7 @@ class Kinds extends Component {
                         <p className="kinds-text1-p4">服务：免费培训、系统维护、云端升级</p>
                     </section>
                 </section>
-                <section className="page page4">
+                <section className="section page4 footer fp-auto-height">
                     <section className="home-bottom-split-box">
                         <HomeFooter />
                     </section>

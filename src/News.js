@@ -45,8 +45,8 @@ class News extends Component {
                 </section>
                 <section className="news-footer-box1">
                         <PicText data="http://download.duckr.cn/vrschool/news/banner3.png" title="济南VR智慧课堂教育研讨会大获成功，引发广泛关注" type="3" href="http://123.57.53.5/vr/details/details3/" />
-                        <PicText data="http://download.duckr.cn/vrschool/news/banner4.jpg" title="江苏新沂市教育局召开VR智慧课堂研讨会" type="3" href="http://123.57.53.5/vr/details4/" />
-                        <PicText data="http://download.duckr.cn/vrschool/news/banner5.jpg" title="微视酷落地常熟探讨VR教学" type="3" href="http://123.57.53.5/vr/details5/" />
+                        <PicText data="http://download.duckr.cn/vrschool/news/banner4.jpg" title="江苏新沂市教育局召开VR智慧课堂研讨会" type="3" href="http://123.57.53.5/vr/details/details4/" />
+                        <PicText data="http://download.duckr.cn/vrschool/news/banner5.jpg" title="微视酷落地常熟探讨VR教学" type="3" href="http://123.57.53.5/vr/details/details5/" />
                 </section>
                 <section className="news-footer-box2">
                         <PicText data="http://download.duckr.cn/vrschool/news/banner6.png" title="微视酷VR课堂亮相北京小学英语信息化课堂教学研讨会" type="3" href="http://123.57.53.5/vr/details/details6/" />

@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=4, initial-scale=0.25, maximum-scale=3, minimum-scale=0.25, user-scalable=no">
     <link rel="shortcut icon" href="http://download.duckr.cn/vrschool/favicon.ico">
     <script src="http://download.duckr.cn/vrschool/js/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="http://download.duckr.cn/vrschool/css/onepage-scroll.css" />
-    <script src="http://download.duckr.cn/vrschool/js/jquery.onepage-scroll.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://download.duckr.cn/vrschool/css/jquery.fullPage.css" />
+    <script src="http://download.duckr.cn/vrschool/js/jquery.fullPage.js"></script>
 
     <!--
       Notice the use of %PUBLIC_URL% in the tag above.
@@ -34,9 +34,11 @@
   </body>
   <script>
     $(function(){
-        $('.main').onepage_scroll({
-          sectionContainer: '.page',
-          loop: false,
+        $('.main').fullpage({
+            verticalCentered: !1,
+            navigation: !0,
+            onLeave: function(index, nextIndex, direction){
+            }
         });
         var arr = window.location.href.split("#");
         if (2 == arr.length) {
