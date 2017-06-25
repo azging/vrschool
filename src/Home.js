@@ -38,7 +38,7 @@ class Home extends Component {
   render() {
     return (
     <section className="main">
-      <section className="page hero">
+      <section className="section hero">
         <HomeHeader /> 
         <section className="hero-content">
           <img src="http://download.duckr.cn/vrschool/home/vr_glass.png" alt="" className="vr-glass" />
@@ -50,7 +50,7 @@ class Home extends Component {
           <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow2" />
         </div>
       </section>
-      <section className="page ies">
+      <section className="section ies">
         <div className="mark"></div>
         <h1>中国首套真正能上课的VR教学系统</h1>
         <div className="ies-btn know-ies">
@@ -67,7 +67,7 @@ class Home extends Component {
           <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow2" />
         </div>
       </section>
-      <section className="page china">
+      <section className="section china">
         <div className="mark"></div>
         <section className="map">
           <div className="city city1"></div>
@@ -112,7 +112,7 @@ class Home extends Component {
           <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow2" />
         </div>
       </section>
-      <section className="page honor">
+      <section className="section honor">
         <section className="honor-content">
           <section className="honor-left-box honor-box">
             <img src="http://download.duckr.cn/vrschool/home/icon1.png" alt="" className="honor-logo"/>
@@ -141,7 +141,7 @@ class Home extends Component {
         </div>
       </section>
 
-      <section className="page page5">
+      <section className="section page5">
         <img src="http://download.duckr.cn/vrschool/home/P4_image.png" alt="" className="ies-img-2"/>
         <section className="home-bottom-split-box">
             <HomeFooter />

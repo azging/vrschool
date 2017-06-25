@@ -117,7 +117,7 @@ class Kinds extends Component {
                         <p className="kinds-text1-p4">服务：免费培训、系统维护、云端升级</p>
                     </section>
                 </section>
-                <section className="section page4 footer fp-auto-height">
+                <section className="section page4 fp-auto-height">
                     <section className="kids-bottom-split-box">
                         <HomeFooter />
                     </section>

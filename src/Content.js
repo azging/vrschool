@@ -17,7 +17,6 @@ class Content extends Component {
                 <section className="content-image1-right-box">
                     <img src="http://download.duckr.cn/vrschool/content/image_1.png" />
                     <section className="content-view-video">
-                        <img src="http://download.duckr.cn/vrschool/content/view_vr_video.jpeg" />
                     </section>
                 </section>
             </section>
@@ -25,7 +24,6 @@ class Content extends Component {
                 <section className="content-image1-right-box">
                     <img src="http://download.duckr.cn/vrschool/content/imafe_2.png" />
                     <section className="content-view-video">
-                        <img src="http://download.duckr.cn/vrschool/content/view_vr_video.jpeg" />
                     </section>
                 </section>
                 <section className="content-image1-left-box">
@@ -41,7 +39,6 @@ class Content extends Component {
                 <section className="content-image1-right-box">
                     <img src="http://download.duckr.cn/vrschool/content/image_3.png" />
                     <section className="content-view-video">
-                        <img src="http://download.duckr.cn/vrschool/content/view_vr_video.jpeg" />
                     </section>
                 </section>
             </section>

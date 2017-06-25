@@ -29,13 +29,16 @@ class ProductIes extends Component {
                 <a href="http://123.57.53.5/vr/login/">学校登录</a>
             </section>
         </section>
-        <section className="ies-animation-box">
-            <section className="ies-animation-right">
-            </section>
-            <img className="ies-animation" src="http://download.duckr.cn/vrschool/product/ies/ies_animation.gif" />
-            <section className="ies-animation-line">
-            </section>
+        <section className="ies-pic-box">
+            <img className="ies-pic" src="http://download.duckr.cn/vrschool/product/ies/ies1.jpg" />
+            <img className="ies-pic" src="http://download.duckr.cn/vrschool/product/ies/ies2.jpg" />
+            <img className="ies-pic" src="http://download.duckr.cn/vrschool/product/ies/ies3.jpg" />
+            <img className="ies-pic" src="http://download.duckr.cn/vrschool/product/ies/ies4.jpg" />
+            <img className="ies-pic" src="http://download.duckr.cn/vrschool/product/ies/ies5.jpg" />
+            <img className="ies-pic" src="http://download.duckr.cn/vrschool/product/ies/ies6.jpg" />
+            <img className="ies-pic" src="http://download.duckr.cn/vrschool/product/ies/ies7.jpg" />
         </section>
+        <img className="ies-bottom-pic" src="http://download.duckr.cn/vrschool/product/ies/ies_bottom2.jpeg" />
         <HomeFooter />
       </section>
     );

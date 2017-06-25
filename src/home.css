@@ -251,34 +251,16 @@ table {
 
 
 @media screen and  (max-width: 1845px) {
-    .logo {
-        margin-left: 93px;
-        margin-top: 13px;
-        margin-bottom: 11px;
-        margin-right: 551px;
-        width: 148px;
-        height: 46px;
+    .join {
+        right: 30px;
     }
-  .join {
-    right: 30px;
-  }
 
-  .ies-btn {
-    width: 15%;
-  }
-
-
+    .ies-btn {
+        width: 15%;
+    }
 }
 
 @media screen and  (max-width: 1600px) {
-    .logo {
-        margin-left: 93px;
-        margin-top: 13px;
-        margin-bottom: 11px;
-        margin-right: 306px;
-        width: 148px;
-        height: 46px;
-    }
   .join {
     right: 20px;
   }
@@ -286,8 +268,6 @@ table {
   .ies-btn {
     width: 14%;
   }
-
-
 }
 
 .know-ies > .join {
@@ -304,8 +284,6 @@ table {
   opacity: 0;
   transition: all .8s ease-in-out;
 }
-
-
 
 .china {
   position: relative;
@@ -1354,14 +1332,6 @@ input::-webkit-input-placeholder {
 
 
 @media screen and (max-width: 1366px) {
-.logo {
-    margin-left: 93px;
-    margin-top: 13px;
-    margin-bottom: 11px;
-    margin-right: 72px;
-    width: 148px;
-    height: 46px;
-}
  .hero-content h1 {
      font-size: 50px;
  }
