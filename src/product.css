@@ -43,8 +43,6 @@ table {
     border-spacing: 0;
 }
 
-
-
 .product-index {
     width: 100%;
     background: url(http://download.duckr.cn/vrschool/product/product_bg.png);
@@ -210,6 +208,9 @@ table {
     display: -webkit-flex;
     justify-content: space-between;
 }
+.ies-pic-box img:hover {
+    opacity: 0.8;
+}
 
 .ies-pic {
     width: 14.286%;
@@ -256,9 +257,21 @@ table {
  }
 
 /* kinds */
+.kinds-pic-box {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    left: 0%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+}
+
 .kinds-page1-content {
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .kinds-pad-box {

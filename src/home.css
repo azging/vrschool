@@ -44,11 +44,6 @@ table {
   border-spacing: 0;
 }
 
-.button:hover{
-    background-color: #4CAF50;
-    color: white;
-}
-
 .hero {
 }
 
@@ -732,7 +727,9 @@ input::-webkit-input-placeholder {
     width: 100%;
     height: auto;
 }
-
+.content-image1-right-box img:hover {
+    opacity: 0.8;
+}
 .content-view-video {
     position: absolute;
     right: 0;

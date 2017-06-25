@@ -16,15 +16,11 @@ class Content extends Component {
                 </section>
                 <section className="content-image1-right-box">
                     <img src="http://download.duckr.cn/vrschool/content/image_1.png" />
-                    <section className="content-view-video">
-                    </section>
                 </section>
             </section>
             <section className="content-image1-box">
                 <section className="content-image1-right-box">
                     <img src="http://download.duckr.cn/vrschool/content/imafe_2.png" />
-                    <section className="content-view-video">
-                    </section>
                 </section>
                 <section className="content-image1-left-box">
                     <p className="title">在星空中</p>
@@ -38,8 +34,6 @@ class Content extends Component {
                 </section>
                 <section className="content-image1-right-box">
                     <img src="http://download.duckr.cn/vrschool/content/image_3.png" />
-                    <section className="content-view-video">
-                    </section>
                 </section>
             </section>
             <section className="content-bottom-line-header">
