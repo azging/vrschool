@@ -91,11 +91,10 @@ class HomeHeader extends Component {
         })();
         var winWidth = $(window).width();
         var right = (winWidth - 1053) - 93 - 148;
-        alert(right);
         if (right < 10) {
             right = 10;
         }
-        $(".logo").css("margin-right", right);
+        //$(".logo").css("margin-right", right);
         if (this.props.data >=0 && this.props.data <= 5) {
             this.jumpTarget(this.props.data);
         }
