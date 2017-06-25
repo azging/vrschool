@@ -37,12 +37,26 @@
         $('.main').fullpage({
             verticalCentered: !1,
             navigation: !0,
-            onLeave: function(index, nextIndex, direction){
+            afterLoad: function(anchorLink, index) {
+                switch (index) {
+                    case 1:
+                        $('.kinds-text1-box').css('left', '224px');
+                        $(".kinds-text1-box").css('opacity', '1');
+                    break;
+                    case 2:
+                        $('.kinds-text2-box').css('right', '287px');
+                        $(".kinds-text2-box").css('opacity', '1');
+                    break;
+                    case 3:
+                        $('.kinds-text3-box').css('left', '225px');
+                        $(".kinds-text3-box").css('opacity', '1');
+                    break;
+                }
             }
         });
         var arr = window.location.href.split("#");
         if (2 == arr.length) {
-            $('.main').moveTo(parseInt(arr[1]));
+            $('.main').fullpage.moveTo(parseInt(arr[1]));
         }
     });
   </script>

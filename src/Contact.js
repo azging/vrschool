@@ -8,7 +8,7 @@ class Contact extends Component {
   render() {
     return (
       <section class="contact">
-        <HomeHeader />
+        <HomeHeader data="5" />
         <section className="top-bg">
           <img src="http://download.duckr.cn/vrschool/contact/contact-banner.png" className="top-image"/>
         </section>

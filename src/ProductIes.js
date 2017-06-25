@@ -5,6 +5,10 @@ import HomeFooter from './HomeFooter.js';
 var $ = require('jquery');
 
 class ProductIes extends Component {
+    componentDidMount() {
+        $('.ies-top-text-box').css('right', '13%');
+        $(".ies-top-text-box").css('opacity', '1');
+    }
   render() {
     return (
       <section className="product">

@@ -98,7 +98,7 @@ class Solution extends Component {
     render() {
         return (
           <section className="home">
-            <HomeHeader />
+            <HomeHeader data="2" />
             <section className="solution-container-box">
                 <img id="solution-bg" src="http://download.duckr.cn/vrschool/solution/Bg_1_1.jpg" /> 
                 <section className="solution-control-opacity">

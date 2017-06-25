@@ -6,46 +6,46 @@ import HomeFooter from './HomeFooter.js';
 //import {HashRouter, Route, Link} from 'react-router-dom'//导入的方式跟之前有点变化
 
 class Home extends Component {
-  componentDidMount() {
-    $(document).ready(function(){
-      let heroContentHeight = $('.hero').height() - $('.hero-nav').height();
-      $('.hero-content').css("height", heroContentHeight);
-    });
-    $(window).resize(function() {
-      let heroContentHeight = $('.hero').height() - $('.hero-nav').height();
-      $('.hero-content').css("height", heroContentHeight);
-    });
+    componentDidMount() {
+        $(document).ready(function(){
+            let heroContentHeight = $('.hero').height() - $('.hero-nav').height();
+            $('.hero-content').css("height", heroContentHeight);
+        });
+        $(window).resize(function() {
+            let heroContentHeight = $('.hero').height() - $('.hero-nav').height();
+            $('.hero-content').css("height", heroContentHeight);
+        });
 
-    $(document).ready(() => {
-      $('.hero-content > h1').css('opacity', '1')
-      $(".hero-content > h1").css('margin-top', '250px');
-      $('.hero-content > h2').css('opacity', '1')
-      $(".hero-content > h2").css('margin-top', '40px');
-      setTimeout(
-      		() => { $('.vr-glass').css('opacity', '1'); $(".vr-glass").css('margin-top', '160px'); },
-      		800
-      );
-      
-      $('.hero .down-arrow2').css('top', '0')
-      $('.hero .down-arrow').mouseover(function(){
-        $(".hero .down-arrow2").css("top","102px");
-      });
-      $('.hero .down-arrow').mouseout(function(){
-        $(".hero .down-arrow2").css("top","0");
-      });
-    });
-  }
+        $(document).ready(() => {
+            $('.hero-content > h1').css('opacity', '1')
+            $(".hero-content > h1").css('margin-top', '250px');
+            $('.hero-content > h2').css('opacity', '1')
+            $(".hero-content > h2").css('margin-top', '40px');
+            setTimeout(
+                  () => { $('.vr-glass').css('opacity', '1'); $(".vr-glass").css('margin-top', '160px'); },
+                  800
+            );
+            
+            $('.hero .down-arrow2').css('top', '0')
+            $('.hero .down-arrow').mouseover(function(){
+              $(".hero .down-arrow2").css("top","102px");
+            });
+            $('.hero .down-arrow').mouseout(function(){
+              $(".hero .down-arrow2").css("top","0");
+            });
+        });
+    }
   render() {
     return (
     <section className="main">
       <section className="section hero">
-        <HomeHeader /> 
+        <HomeHeader data="0" /> 
         <section className="hero-content">
           <img src="http://download.duckr.cn/vrschool/home/vr_glass.png" alt="" className="vr-glass" />
           <h1>让教育变得更简单、更快乐、更高效</h1>
           <h2>Make education easier ，happier and more effient</h2>
         </section>
-        <div className="down-arrow">
+        <div id="home-arrow-1" className="down-arrow">
           <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow1" />
           <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow2" />
         </div>
@@ -62,7 +62,7 @@ class Home extends Component {
           <span className="join">></span>
         </div>
         <img src="http://download.duckr.cn/vrschool/home/ies_vr.png" alt="" className="ies-device" />
-        <div className="down-arrow">
+        <div id="home-arrow-2" className="down-arrow">
           <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow1" />
           <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow2" />
         </div>
@@ -107,7 +107,7 @@ class Home extends Component {
         <h2>遍布全国课堂，师生共创<br />体验式教学的精彩！</h2>
         <img src="http://download.duckr.cn/vrschool/home/girl.png" alt="" className="child" />
         <img src="http://download.duckr.cn/vrschool/home/P3_image2.png" alt="" className="border" />
-        <div className="down-arrow">
+        <div id="home-arrow-3" className="down-arrow">
           <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow1" />
           <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow2" />
         </div>
@@ -135,7 +135,7 @@ class Home extends Component {
             <p className="honor-text">CEO杨威被聘为中关村虚拟现实空间<br/>(STRONGVR)导师</p >
           </section>
         </section>
-        <div className="down-arrow">
+        <div id="home-arrow-4" className="down-arrow">
           <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow1" />
           <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow2" />
         </div>

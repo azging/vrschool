@@ -5,6 +5,23 @@ import NewsNav from './NewsNav.js';
 var $ = require('jquery');
 
 class HomeHeader extends Component {
+    jumpTarget(index) {
+        var links = document.querySelectorAll(".tab");
+        var linkTarget = links[index];
+
+        var target = document.querySelector(".target");
+        var width = linkTarget.getBoundingClientRect().width;
+        var height = linkTarget.getBoundingClientRect().height;
+        var left = linkTarget.getBoundingClientRect().left + window.pageXOffset;
+        var top = linkTarget.getBoundingClientRect().top + window.pageYOffset;
+
+        target.style.width = width + "px";
+        target.style.height = height + "px";
+        target.style.left = left + "px";
+        target.style.top = 14 + top + "px";
+        target.style.borderColor = '#f08300';
+        target.style.transform = "none";
+    }
     mouseEnter(index) {
         if (1 == index) {
             $("#product-nav").show();
@@ -19,7 +36,6 @@ class HomeHeader extends Component {
             $("#news-nav").hide();
         }
         var links = document.querySelectorAll(".tab");
-        var target = document.querySelector(".target");
         var linkTarget = links[index];
         if (!linkTarget.classList.contains("active")) {
             for (var i = 0; i < links.length; i++) {
@@ -30,17 +46,7 @@ class HomeHeader extends Component {
             }
             linkTarget.classList.add("active");
             linkTarget.opacity = "1";
-            var width = linkTarget.getBoundingClientRect().width;
-            var height = linkTarget.getBoundingClientRect().height;
-            var left = linkTarget.getBoundingClientRect().left + window.pageXOffset;
-            var top = linkTarget.getBoundingClientRect().top + window.pageYOffset;
-
-            target.style.width = width + "px";
-            target.style.height = height + "px";
-            target.style.left = left + "px";
-            target.style.top = 14 + top + "px";
-            target.style.borderColor = '#f08300';
-            target.style.transform = "none";
+            this.jumpTarget(index);    
         }
     }
     jumpHome() {
@@ -84,6 +90,9 @@ class HomeHeader extends Component {
             right = 10;
         }
         $(".logo").css("margin-right", right);
+        if (this.props.data >=0 && this.props.data <= 5) {
+            this.jumpTarget(this.props.data);
+        }
     }
     render() {
         var loginUrl = 'http://123.57.53.5/vr/' + 'login/';

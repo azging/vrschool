@@ -151,9 +151,11 @@ table {
     z-index: 100;
     width: 545px;
     height: 494px;
-    right: 13%;
+    right: -13%;
     margin: 0 auto;
     top: 24%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .ies-top-text-title {
@@ -303,27 +305,33 @@ table {
     position: absolute;
     width: 465px;
     height: auto;
-    left: 224px;
+    left: 0;
     top: 192px;
     color: #333333;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .kinds-text2-box {
     position: absolute;
     width: 340px;
     height: auto;
-    right: 287px;
+    right: 0px;
     top: 92px;
     color: #ffffff;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .kinds-text3-box {
     position: absolute;
     width: 340px;
     height: auto;
-    left: 225px;
+    left: 0px;
     top: 206px;
     color: #ffffff;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .kinds-text1-p1 {

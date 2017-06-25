@@ -13,7 +13,7 @@ class Product extends Component {
         var kindsUrl3 = baseUrl + 'product/kinds/index.html#3';
         return (
           <section className="product">
-            <HomeHeader />
+            <HomeHeader data="1" />
             <section className="product-index">
               <a href={iesUrl} className="item" id="item1">
                 <h2 className="item-title">IES系统</h2>

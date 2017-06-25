@@ -33,7 +33,7 @@
     -->
   </body>
   <script>
-    $(function(){
+    $(function() {
         function bindArrow(section) {
           $(section + ' .down-arrow').mouseover(function(){
             $(section + " .down-arrow2").css("top","102px");
@@ -42,6 +42,18 @@
             $(section + " .down-arrow2").css("top","0");
           });
         }
+        $("#home-arrow-1").click(function() {
+            $(".main").fullpage.moveTo(2);
+        });
+        $("#home-arrow-2").click(function() {
+            $(".main").fullpage.moveTo(3);
+        });
+        $("#home-arrow-3").click(function() {
+            $(".main").fullpage.moveTo(4);
+        });
+        $("#home-arrow-4").click(function() {
+            $(".main").fullpage.moveTo(5);
+        });
         $('.main').fullpage({
             verticalCentered: !1,
             navigation: !0,

@@ -9,7 +9,7 @@ class HomeFooter extends Component {
               <section className="footer-box">
                 <img src="http://download.duckr.cn/vrschool/footer/logo5.png" alt="" className="contact-logo"/>
                 <p className="contact-info">地址：北京市海淀区上地创业中路32号3-301</p >
-                <p className="contact-info">电话：400-0860581<br/>010-87366561</p >
+                <p className="contact-info">电话：400-0860581<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;010-87366561</p >
                 <p className="contact-info">邮箱：INFO@WIZSCH.COM</p >
               </section>
             </section>
@@ -18,7 +18,6 @@ class HomeFooter extends Component {
                 <h5 className="item-title">关于微视酷</h5>
                 <a href="" className="item-link">关于我们</a >
                 <a href="" className="item-link">合作伙伴</a >
-                <a href="" className="item-link">加入我们</a >
               </section>
               <section className="support-box">
                 <h5 className="item-title">支持与下载</h5>
@@ -34,7 +33,7 @@ class HomeFooter extends Component {
               <section className="news-box">
                 <h5 className="item-title">媒体资讯</h5>
                 <a href="" className="item-link">媒体介绍</a >
-                <a href="" className="item-link">技术支持</a >
+                <a href="" className="item-link">公司新闻</a >
                 <a href="" className="item-link">行业资讯</a >
               </section>
             </section>

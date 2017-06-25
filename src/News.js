@@ -35,7 +35,7 @@ class News extends Component {
     render() {
         return (
             <section className="home">
-                <HomeHeader />
+                <HomeHeader data="4" />
                 <img className="news-top-slider-bg" src="http://download.duckr.cn/vrschool/news/Slider1.png" />
                 <section className="news-middle-box">
                     <section className="news-middle-content-box">

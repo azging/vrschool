@@ -7,7 +7,7 @@ class Content extends Component {
   render() {
     return (
       <section className="home">
-        <HomeHeader />
+        <HomeHeader data="3" />
         <section className="content-container-box">
             <section className="content-image1-box">
                 <section className="content-image1-left-box">

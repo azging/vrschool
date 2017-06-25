@@ -51,22 +51,6 @@ class Kinds extends Component {
             let heroContentHeight = $('.page1').height() - $('.hero-nav').height();
             $('.hero-content').css("height", heroContentHeight);
         });
-
-        /*$(document).ready(() => {
-          $('.hero-content > h1').css('opacity', '1')
-          $(".hero-content > h1").css('margin-top', '250px');
-          $('.hero-content > h2').css('opacity', '1')
-          $(".hero-content > h2").css('margin-top', '40px');
-          $('.vr-glass').css('opacity', '1')
-          $(".vr-glass").css('margin-top', '160px');
-          $('.hero .down-arrow2').css('top', '0')
-          $('.hero .down-arrow').mouseover(function(){
-            $(".hero .down-arrow2").css("top","102px");
-          });
-          $('.hero .down-arrow').mouseout(function(){
-            $(".hero .down-arrow2").css("top","0");
-          });
-        });*/
     }
     render() {
         var index = 0;
