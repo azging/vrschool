@@ -118,7 +118,7 @@ class Kinds extends Component {
                     </section>
                 </section>
                 <section className="section page4 footer fp-auto-height">
-                    <section className="home-bottom-split-box">
+                    <section className="kids-bottom-split-box">
                         <HomeFooter />
                     </section>
                 </section>
