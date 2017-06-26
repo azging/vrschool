@@ -13,7 +13,7 @@ class ProductIes extends Component {
     return (
       <section className="product">
         <HomeHeader />
-        <img className="ies-top-slider-bg" src="http://download.duckr.cn/vrschool/product/ies/ies_bg.png" />
+        <img className="ies-top-slider-bg" src="http://download.duckr.cn/vrschool/product/ies/ies_bg1.jpg" />
         <section className="ies-top-text-box">
             <p className="ies-top-text-title">
             IES沉浸式教育系统
@@ -42,7 +42,7 @@ class ProductIes extends Component {
             <img className="ies-pic" src="http://download.duckr.cn/vrschool/product/ies/ies6.jpg" />
             <img className="ies-pic" src="http://download.duckr.cn/vrschool/product/ies/ies7.jpg" />
         </section>
-        <img className="ies-bottom-pic" src="http://download.duckr.cn/vrschool/product/ies/ies_bottom2.jpeg" />
+        <img className="ies-bottom-pic" src="http://download.duckr.cn/vrschool/product/ies/ies_bottom3.jpg" />
         <HomeFooter />
       </section>
     );

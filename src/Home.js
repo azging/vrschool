@@ -6,6 +6,12 @@ import HomeFooter from './HomeFooter.js';
 //import {HashRouter, Route, Link} from 'react-router-dom'//导入的方式跟之前有点变化
 
 class Home extends Component {
+    iesJump() {
+        window.location.href = 'http://123.57.53.5/vr/product/ies/';
+    }
+    devJump() {
+        window.location.href = 'http://developer.wizsch.com/';
+    }
     componentDidMount() {
         $(document).ready(function(){
             let heroContentHeight = $('.hero').height() - $('.hero-nav').height();
@@ -53,11 +59,11 @@ class Home extends Component {
       <section className="section ies">
         <div className="mark"></div>
         <h1>中国首套真正能上课的VR教学系统</h1>
-        <div className="ies-btn know-ies">
+        <div onClick={this.iesJump} className="ies-btn know-ies">
           了解更多IES
           <span className="join">></span>
         </div>
-        <div className="ies-btn join-develop">
+        <div onClick={this.devJump} className="ies-btn join-develop">
           进入开发者平台
           <span className="join">></span>
         </div>
