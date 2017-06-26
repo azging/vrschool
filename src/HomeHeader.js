@@ -87,13 +87,15 @@ class HomeHeader extends Component {
                 }
             }
 
-            //window.addEventListener("resize", resizeFunc);
+            window.addEventListener("resize", resizeFunc);
         })();
         var winWidth = $(window).width();
+        alert('win windth' + winWidth);
         var right = (winWidth - 1053) - 93 - 148;
         if (right < 10) {
             right = 10;
         }
+        alert('margin right' + right);
         $(".logo").css("margin-right", right);
         if (this.props.data >=0 && this.props.data <= 5) {
             this.jumpTarget(this.props.data);
