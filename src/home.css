@@ -1230,14 +1230,15 @@ input::-webkit-input-placeholder {
 .footer {
     padding-top: 71px;
     padding-bottom: 30px;
-    margin-left: 11.7%;
-    width: 76.6%;
-    margin: 0 auto;
+    padding-right: 225px;
+    padding-left: 225px;
+    width: 1920px;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
+    width: 1470px;
 }
 
 .footer-left-box {
@@ -1300,6 +1301,7 @@ input::-webkit-input-placeholder {
     font-size: 18px;
     color: #333333;
     text-align: center;
+    margin-left: 0px;
 }
 
 .down-arrow {
