@@ -1112,10 +1112,6 @@ input::-webkit-input-placeholder {
 
 
 
-
-
-
-
 .china > h1 {
   position: absolute;
   top: 0;
@@ -1257,7 +1253,7 @@ input::-webkit-input-placeholder {
     color: #333333;
 }
 .footer-box {
-    margin-left: 100px;
+    margin-left: 0px;
 }
 .footer-box .contact-logo {
     margin-bottom: 5px;

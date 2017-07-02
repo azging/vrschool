@@ -8,8 +8,8 @@ class HomeFooter extends Component {
         if (width < 10) {
             width = 10;
         }
-        var left = (winWidth - 1920) / 2 - width;
-        $("#home-footer").css("padding-left", width);
+        var left = (winWidth - 1920) - width;
+        $(".footer").css("padding-left", width);
         $(".footer-copyright > .copyright-content").css("margin-left", left);
     }
     render() {
