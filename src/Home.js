@@ -15,7 +15,17 @@ class Home extends Component {
     componentDidMount() {
         var mouseX = $(window).width() / 2;
         var mouseY = $(window).height() / 2;
-        var minMove = 10;
+        var minMove = 2;
+        var minMoveX = 2;
+        var minMoveY = 2;
+        var minVrStarBgX = -10;
+        var maxVrStarBgX = 10;
+        var minVrStarBgY = -6;
+        var maxVrStarBgY = 6;
+        var minVrStarBoxX = -10;
+        var maxVrStarBoxX = 10;
+        var minVrStarBoxY = -6;
+        var maxVrStarBoxY = 6;
         $(document).ready(function(){
             let heroContentHeight = $('.hero').height() - $('.hero-nav').height();
             $('.hero-content').css("height", heroContentHeight);
@@ -26,9 +36,82 @@ class Home extends Component {
         });
         $(".vr-star-bg").mousemove(function (e) {
             var xx = e.originalEvent.x || e.originalEvent.layerX || 0; 
+            var yy = e.originalEvent.y || e.originalEvent.layerY || 0; 
             if (mouseX - xx < 0) {
+                if (xx - mouseX > minMove) {
+                    mouseX = xx;
+                    mouseY = yy;
+                    // 背景星星左移动
+                    var left = parseInt($(".vr-star-bg").css("margin-left"));
+                    left -= minMoveX; 
+                    if (left < minVrStarBgX) {
+                        left = minVrStarBgX;
+                    }
+                    $(".vr-star-bg").css("margin-left", left);
+                    
+                    // 背景星星下移动
+                    var top = parseInt($(".vr-star-bg").css("margin-top"));
+                    top -= minMoveY; 
+                    if (top < minVrStarBgY) {
+                        top = minVrStarBgY;
+                    }
+                    $(".vr-star-bg").css("margin-top", top);
+
+                    // 北斗七星右移动
+                    var left = parseInt($(".vr-star-box").css("left"));
+                    left += minMoveX;
+                    if (left > maxVrStarBoxX) {
+                        left = maxVrStarBoxX;
+                    }
+                    $(".vr-star-box").css("left", left);
+
+                    // 北斗七星上移动
+                    var top = parseInt($(".vr-star-box").css("top"));
+                    top += minMoveY;
+                    if (top > maxVrStarBoxY) {
+                        top = maxVrStarBoxY;
+                    }
+                    $(".vr-star-box").css("top", top);
+                }
             }
-            $(".vr-star-bg").css("margin-left", -300);
+            if (mouseX - xx > 0) {
+                if (mouseX - xx > minMove) {
+                    mouseX = xx;
+                    mouseY = yy;
+
+                    // 背景星星右移动
+                    var left = parseInt($(".vr-star-bg").css("margin-left"));
+                    left += minMoveX; 
+                    if (left > maxVrStarBgX) {
+                        left = maxVrStarBgX;
+                    }
+                    $(".vr-star-bg").css("margin-left", left);
+
+                    // 背景星星上移动
+                    var top = parseInt($(".vr-star-bg").css("margin-top"));
+                    top += minMoveY; 
+                    if (top > maxVrStarBgY) {
+                        top = maxVrStarBgY;
+                    }
+                    $(".vr-star-bg").css("margin-top", left);
+
+                    // 北斗七星左移动
+                    var left = parseInt($(".vr-star-box").css("left"));
+                    left -= minMoveX;
+                    if (left < minVrStarBoxX) {
+                        left = minVrStarBoxX;
+                    }
+                    $(".vr-star-box").css("left", left);
+
+                    // 北斗七星下移动
+                    var top = parseInt($(".vr-star-box").css("top"));
+                    top -= minMoveY;
+                    if (top < minVrStarBoxY) {
+                        top = minVrStarBoxY;
+                    }
+                    $(".vr-star-box").css("top", top);
+                }
+            }
         });
 
         $(document).ready(() => {
@@ -57,7 +140,16 @@ class Home extends Component {
         <HomeHeader data="0" /> 
         <section className="hero-content">
           <img src="http://download.duckr.cn/vrschool/home/vr_glass.png" alt="" className="vr-glass" />
+          <img src="http://download.duckr.cn/vrschcool/home/home_light.png" alt="" className="vr-light" />
           <img src="http://download.duckr.cn/vrschcool/home/home_star_bg.png" alt="" className="vr-star-bg" />
+          <section className="vr-star-box">
+            <img src="http://download.duckr.cn/vrschcool/home/star1.png" alt="" className="vr-star1" />
+            <img src="http://download.duckr.cn/vrschcool/home/star2.png" alt="" className="vr-star2" />
+            <img src="http://download.duckr.cn/vrschcool/home/star3.png" alt="" className="vr-star3" />
+            <img src="http://download.duckr.cn/vrschcool/home/star4.png" alt="" className="vr-star4" />
+            <img src="http://download.duckr.cn/vrschcool/home/star5.png" alt="" className="vr-star5" />
+            <img src="http://download.duckr.cn/vrschcool/home/star6.png" alt="" className="vr-star6" />
+          </section>
           <h1>让教育变得更简单、更快乐、更高效</h1>
           <h2>Make education easier ，happier and more effient</h2>
         </section>

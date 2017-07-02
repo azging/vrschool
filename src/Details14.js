@@ -10,7 +10,7 @@ class Details extends Component {
       <section class="detail">
         <HomeHeader />
         <section className="top-bg">
-          <img src="static/image/slider1.png" className="top-image"/>
+          <img src="http://download.duckr.cn/vrschool/details/slider1.png" className="top-image"/>
         </section>
         <section className="detail-box">
           <section className="nav-box">
