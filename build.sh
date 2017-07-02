@@ -64,9 +64,97 @@ sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
 mv -f build vr/details/details1
 
+sed -ie "s/Details1/Details2/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details2
 
+sed -ie "s/Details2/Details3/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details3
 
-sed -ie "s/Details1/Contact/g" src/App.js 
+sed -ie "s/Details3/Details4/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details4
+
+sed -ie "s/Details4/Details5/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details5
+
+sed -ie "s/Details5/Details6/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details6
+
+sed -ie "s/Details6/Details7/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details7
+
+sed -ie "s/Details7/Details8/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details8
+
+sed -ie "s/Details8/Details9/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details9
+
+sed -ie "s/Details9/Details10/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details10
+
+sed -ie "s/Details10/Details11/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details11
+
+sed -ie "s/Details11/Details12/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details12
+
+sed -ie "s/Details12/Details13/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details13
+
+sed -ie "s/Details13/Details14/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details14
+
+sed -ie "s/Details14/Details15/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details15
+
+sed -ie "s/Details15/Details16/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/details/details16
+
+sed -ie "s/Details16/Contact/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
