@@ -97,7 +97,7 @@ class HomeHeader extends Component {
         if (right < 10) {
             right = 10;
         }
-        alert('window width' + winWidth + ' document width' + docWidth + ' body width' + bodyWidth + ' outer' + outerWidth);
+        alert('right is ' + right + 'window width' + winWidth + ' document width' + docWidth + ' body width' + bodyWidth + ' outer' + outerWidth);
         $(".logo").css("margin-right", right);
         if (this.props.data >=0 && this.props.data <= 5) {
             this.jumpTarget(this.props.data);

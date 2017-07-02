@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import HomeHeader from './HomeHeader.js';
-import HomeFooter from './HomeFooter.js';
 var $ = require('jquery');
 
 class SolutionControl extends Component {
@@ -100,7 +99,6 @@ class Solution extends Component {
           <section className="home">
             <HomeHeader data="2" />
             
-            <HomeFooter />
           </section>
         );
     }

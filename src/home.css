@@ -24,6 +24,21 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+@font-face {
+  font-family: "SourceHanSansCN-Regular";
+  src: url("http://download.duckr.cn/vrshool/ttf/SourceHanSansCN-Regular.woff2") format("woff2"),
+       url("http://download.duckr.cn/vrshool/ttf/SourceHanSansCN-Regular.woff") format("woff"),
+       url("http://download.duckr.cn/vrshool/ttf/SourceHanSansCN-Regular.ttf") format("truetype"),
+       url("http://download.duckr.cn/vrshool/ttf/SourceHanSansCN-Regular.svg") format("svg");
+}
+@font-face {
+  font-family: "SourceHanSansCN-Medium";
+  src: url("http://download.duckr.cn/vrshool/ttf/SourceHanSansCN-Medium.woff2") format("woff2"),
+       url("http://download.duckr.cn/vrshool/ttf/SourceHanSansCN-Medium.woff") format("woff"),
+       url("http://download.duckr.cn/vrshool/ttf/SourceHanSansCN-Medium.ttf") format("truetype"),
+       url("http://download.duckr.cn/vrshool/ttf/SourceHanSansCN-Medium.svg") format("svg"),
+       url("http://download.duckr.cn/vrshool/ttf/SourceHanSansCN-Medium.eot") format("embedded-opentype");
+}
 body {
     line-height: 1;
     font-family: SourceHanSansCN-Regular;
