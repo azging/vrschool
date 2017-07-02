@@ -816,14 +816,14 @@ input::-webkit-input-placeholder {
     font-size: 20px;
     line-height: 35px;
     padding-top: 18px;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSansCN-Medium;
 }
 
 .solution-text-content2 {
     color: #666666;
     font-size: 20px;
     padding-top: 42px;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSansCN-Medium;
 }
 
 .solution-text-white-title {
@@ -836,14 +836,14 @@ input::-webkit-input-placeholder {
     font-size: 20px;
     line-height: 35px;
     padding-top: 18px;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSansCN-Medium;
 }
 
 .solution-text-white-content2 {
     color: #ffffff;
     font-size: 20px;
     padding-top: 42px;
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSansCN-Medium;
 }
 
 .solution-text3-box {
@@ -1249,7 +1249,7 @@ input::-webkit-input-placeholder {
     margin-top: 20px;
 }
 .qrcode-box .qrcode-hint {
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSansCN-Medium;
     font-size: 14px;
     color: #333333;
 }
@@ -1260,7 +1260,7 @@ input::-webkit-input-placeholder {
     margin-bottom: 5px;
 }
 .footer-box .contact-info {
-    font-family: SourceHanSansCN-Regular;
+    font-family: SourceHanSansCN-Medium;
     font-size: 16px;
     color: #333333;
     margin-top: 20px;
