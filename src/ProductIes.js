@@ -30,7 +30,7 @@ class ProductIes extends Component {
             程节奏，讲解、提问、监控、考试、统计、反馈课堂全搞定
             </p>
             <section className="ies-login-school">
-                <a href="http://123.57.53.5/vr/login/">学校登录</a>
+                <a href="http://47.93.28.215/vr/login/">学校登录</a>
             </section>
         </section>
         <section className="ies-pic-box">

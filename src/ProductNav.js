@@ -7,7 +7,7 @@ class ProductNav extends Component {
         $("#product-subnav").hide();
     }
     showKind1() {
-        var baseUrl = 'http://123.57.53.5/vr/';
+        var baseUrl = 'http://47.93.28.215/vr/';
         var kindsUrl1 = baseUrl + 'product/kinds/index.html#1';
         window.location.href=kindsUrl1;
         setTimeout(
@@ -16,7 +16,7 @@ class ProductNav extends Component {
     	);
     }
     showKind2() {
-        var baseUrl = 'http://123.57.53.5/vr/';
+        var baseUrl = 'http://47.93.28.215/vr/';
         var kindsUrl2 = baseUrl + 'product/kinds/index.html#2';
         window.location.href=kindsUrl2;
         setTimeout(
@@ -25,7 +25,7 @@ class ProductNav extends Component {
     	);
     }
     showKind3() {
-        var baseUrl = 'http://123.57.53.5/vr/';
+        var baseUrl = 'http://47.93.28.215/vr/';
         var kindsUrl3 = baseUrl + 'product/kinds/index.html#3';
         window.location.href=kindsUrl3;
         setTimeout(
@@ -34,7 +34,7 @@ class ProductNav extends Component {
     	);
     }
     render() {
-        var baseUrl = 'http://123.57.53.5/vr/';
+        var baseUrl = 'http://47.93.28.215/vr/';
         var iesUrl = baseUrl + 'product/ies/';
         return (
           <section className="nav">

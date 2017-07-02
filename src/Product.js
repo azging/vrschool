@@ -6,7 +6,7 @@ var $ = require('jquery');
 
 class Product extends Component {
     render() {
-        var baseUrl = 'http://123.57.53.5/vr/';
+        var baseUrl = 'http://47.93.28.215/vr/';
         var iesUrl = baseUrl + 'product/ies/';
         var kindsUrl1 = baseUrl + 'product/kinds/index.html#1';
         var kindsUrl2 = baseUrl + 'product/kinds/index.html#2';

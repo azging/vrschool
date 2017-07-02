@@ -7,7 +7,7 @@ import HomeFooter from './HomeFooter.js';
 
 class Home extends Component {
     iesJump() {
-        window.location.href = 'http://123.57.53.5/vr/product/ies/';
+        window.location.href = 'http://47.93.28.215/vr/product/ies/';
     }
     devJump() {
         window.location.href = 'http://developer.wizsch.com/';

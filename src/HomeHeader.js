@@ -55,22 +55,22 @@ class HomeHeader extends Component {
         }
     }
     jumpHome() {
-        window.location.href = 'http://123.57.53.5/vr/';
+        window.location.href = 'http://47.93.28.215/vr/';
     }
     jumpProduct() {
-        window.location.href = 'http://123.57.53.5/vr/' + 'product/';
+        window.location.href = 'http://47.93.28.215/vr/' + 'product/';
     }
     jumpSolution() {
-        window.location.href = 'http://123.57.53.5/vr/' + 'total_solution/';
+        window.location.href = 'http://47.93.28.215/vr/' + 'total_solution/';
     }
     jumpContent() {
-        window.location.href = 'http://123.57.53.5/vr/' + 'content_details/';
+        window.location.href = 'http://47.93.28.215/vr/' + 'content_details/';
     }
     jumpNews() {
-        window.location.href = 'http://123.57.53.5/vr/' + 'news/';
+        window.location.href = 'http://47.93.28.215/vr/' + 'news/';
     }
     jumpContact() {
-        window.location.href = 'http://123.57.53.5/vr/' + 'contact_us/';
+        window.location.href = 'http://47.93.28.215/vr/' + 'contact_us/';
     }
     componentDidMount() {
         (function () {
@@ -100,7 +100,7 @@ class HomeHeader extends Component {
         }
     }
     render() {
-        var loginUrl = 'http://123.57.53.5/vr/' + 'login/';
+        var loginUrl = 'http://47.93.28.215/vr/' + 'login/';
         var devUrl = 'http://developer.wizsch.com/';
         return (
             <header>
