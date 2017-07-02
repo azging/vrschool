@@ -57,16 +57,10 @@ class Kinds extends Component {
         return (
             <section className="main">
                 <section className="section page1">
-                    <HomeHeader /> 
+                    <HomeHeader data="1"/> 
                     <section className="kinds-pic-box">
                         <img className="kinds-page1-content" src="http://download.duckr.cn/vrschool/product/vr/1_bg_2_1.jpg" />
                         <img className="kinds-page1-content" src="http://download.duckr.cn/vrschool/product/vr/1_bg_3_1.jpg" />
-                    </section>
-                    <section className="kinds-pad-box">
-                        <section className="kinds-pad-arrow-box">
-                            <img id="kinds-left-arrow" onClick={this.imgMinIndex} src="http://download.duckr.cn/vrschool/product/vr/icon_L_nor.png" className="kinds-pad-left-arrow" />
-                            <img id="kinds-right-arrow" onClick={this.imgAddIndex} src="http://download.duckr.cn/vrschool/product/vr/icon_R_s.png" className="kinds-pad-right-arrow" />
-                        </section>
                     </section>
                     <img src="http://download.duckr.cn/vrschool/product/vr/image.png" className="kinds-kids-img" />
                     <section className="kinds-text1-box">
@@ -77,6 +71,12 @@ class Kinds extends Component {
                         <p className="kinds-text1-p3">□ 一台PAD主控端，50套VR硬件设备</p>
                         <p className="kinds-text1-p3">□ 与国家教材同步，名师参与制作课件</p>
                         <p className="kinds-text1-p4">服务：教师培训、系统维护</p>
+                    </section>
+                    <section className="kinds-pad-box">
+                        <section className="kinds-pad-arrow-box">
+                            <img id="kinds-left-arrow" onClick={this.imgMinIndex} src="http://download.duckr.cn/vrschool/product/vr/icon_L_nor.png" className="kinds-pad-left-arrow" />
+                            <img id="kinds-right-arrow" onClick={this.imgAddIndex} src="http://download.duckr.cn/vrschool/product/vr/icon_R_s.png" className="kinds-pad-right-arrow" />
+                        </section>
                     </section>
                 </section>
                 <section className="section page2">
