@@ -90,6 +90,8 @@ class HomeHeader extends Component {
             window.addEventListener("resize", resizeFunc);
         })();
         var winWidth = $(window).width();
+        var docWidth = $(document).width();
+        alert('window width' + winWidth + ' document width' + docWidth);
         var right = (winWidth - 1053) - 93 - 148;
         if (right < 10) {
             right = 10;
