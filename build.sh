@@ -66,7 +66,7 @@ mv -f build vr/details/details1
 
 
 
-sed -ie "s/Details11/Contact/g" src/App.js 
+sed -ie "s/Details1/Contact/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
