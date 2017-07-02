@@ -91,8 +91,9 @@ class HomeHeader extends Component {
         })();
         var winWidth = $(window).width();
         var docWidth = $(document).width();
-        var bodyWidth = document.body.clientWidth;
-        alert('window width' + winWidth + ' document width' + docWidth + ' body width' + bodyWidth);
+        var bodyWidth = $(document.body).width();
+        var outWidth = $(document.body).outerWidth(true);
+        alert('window width' + winWidth + ' document width' + docWidth + ' body width' + bodyWidth + ' outer' + outerWidth);
         var right = (bodyWidth - 1053) - 93 - 148;
         if (right < 10) {
             right = 10;

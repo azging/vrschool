@@ -34,6 +34,7 @@ ol, ul {
 blockquote, q {
   quotes: none;
 }
+html { overflow-x: hidden; overflow-y: auto; }
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
