@@ -22,27 +22,18 @@ class Details extends Component {
             </div>
           </section>
           <section className="content-box">
-            <h1 className="news-title">江苏新沂市教育局召开VR智慧课堂研讨会</h1>
+            <h1 className="news-title">微视酷落地常熟探讨VR教学</h1>
             <section className="news-content">
-              <img src="http://download.duckr.cn/vrschool/details/news5/image1.jpeg"/>
-              <p>为聚焦新沂市智慧教育，发展新技术、新思维，推动VR虚拟现实技术在教育领域的创新应用，探讨VR教育，助力新沂智慧课堂改革。3月16日，新沂市教育局于新安小学举办VR智慧课堂研讨会。市教育局、商务局、科技局领导，教育局相关科室、城区部分中小学负责人，北京科技大学虚拟现实实验室主任等人员出席会议。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news5/image2.jpeg"/>
-              <img src="http://download.duckr.cn/vrschool/details/news5/image3.jpeg"/>
-              <p>会前，与会人员聆听了微视酷《太阳系》VR公开课。新安小学的同学们通过微视酷自主研发的“IES沉浸式VR教学系统”感受奇妙太空。通过老师的指引，同学们相互配合，在虚拟现实中体验视觉化的宇宙世界，记录太阳系各个行星的天体数据，在愉快的学习氛围中完成知识消化。公开课后，与会人员也亲身感受了VR技术的特别之处。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news5/image4.jpeg"/>
-              <img src="http://download.duckr.cn/vrschool/details/news5/image5.jpeg"/>
-              <p>市教育局领导在座谈会上指出，微视酷VR课堂开发是智慧教育的一项重要内容，对于提升课堂教学效率有帮助。智慧教育是按照市委市政府要求建设智慧新沂的一个重要组成部分，市教育局于2015年购买了智慧教育运行平台，要求每个学校建立网站，诸多学校都在此项工作中投入大量的人力物力，取得了初步的成效。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news5/image6.jpeg"/>
-              <p>从国家到地区都在强调智慧课堂、在线教育，这将是下一阶段各校研究的一个重点。“人工智能+教育”的模式，是将来教育发展的必然模式，未来10年，人工智能会像水和空气一样在生活中无处不在。市教育局领导强调，今天的VR课堂展示，使我们认识到智慧教育、在线教育、人工智能就在身边，让我们对智慧教育有更深刻的感受。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news5/image7.jpeg"/>
-              <img src="http://download.duckr.cn/vrschool/details/news5/image8.jpeg"/>
-              <p>VR教育已经成为了教学技术发展的一大潮流，VR教学将传统的单向教育转化为认知交互和沉浸式体验模式，学生被带入微观或宏观的虚拟世界中，身临其境地观察、探究，极大激发了兴趣和好奇心，增强学习的主动性。它还将学科的复杂知识和抽象结构形象展现，帮助学生更好地理解知识。</p>
-              <p>如何将VR技术与教育完美结合，并落地到现实应用层面，真正为提高国家的素质教育、开启孩子们的未来教育做出贡献，成为了当下教育界和相关企业最为关注的问题。</p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
+              <p>为聚焦智慧教育，发展新技术、新思维，推动VR虚拟现实技术在教育领域的创新应用，探讨VR教育，助力新沂智慧课堂改革。3月31日，常熟在继新沂市之后，成为新一个召开VR教学研讨会的城市。活动由常熟市教育装备技术中心主办，各学校分管校长、技教室主任和教育装备技术中心有关人员相聚在常熟市实验小学，共同探讨VR教育。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news8/image1.jpeg"/>
+              <p>会议主要分为展示课观摩、专家讲座、专题研讨三个环节。在展示课上，微视酷再次给大家带去了《太阳系》课程，我们所熟悉的“IES沉浸式VR教学系统”见到了“新朋友”——常熟市实验小学的孩子们和与会的专家们。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news8/image2.jpeg"/>
+              <p>看到出现在屏幕上的太阳系，同学们都非常兴奋，往常总是被老师描述的景象终于马上要以直观的画面出现在眼前了。“IES沉浸式VR教学系统”也没让同学们失望，戴上微视酷的VR设备之后，犹如身临其境的感觉和充足的学习资料让同学们目不暇接。</p>
+              <p>让同学们没想到的是平常在书本上很难找到地方的数字只要点击屏幕按钮就能全部出现在眼前，更没想到“玩着玩着”还真能把知识顺带手就学了。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news8/image3.jpeg"/>
+              <p>微视酷作为VR教育软件领跑者，2017年持续发力，在前期广泛而深入地与全国各地的中小学进行合作之后，继续深耕教育领域，为学生们带去新的学习方法，让他们享受更简单、更快乐、更高效的学习方式，向传统方式宣告“学习不一定要局限于书本”；为老师们带去新的教学理念和技术，创造更活跃的课堂气氛，营造更和谐的师生互动方式，打造更加科学有效的教学体系。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news8/image4.jpeg"/>
+              <p>积极投身教育事业的发展，与广大师生和教育专家共同推进教育事业的进步，享受教育改革带来的成果，是微视酷不断前行的动力和支柱。</p>
             </section>
           </section>
         </section>

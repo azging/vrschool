@@ -22,20 +22,16 @@ class Details extends Component {
             </div>
           </section>
           <section className="content-box">
-            <h1 className="news-title">微视酷VR课堂再现哈市 聚首阳明小学探讨未来教育</h1>
+            <h1 className="news-title">VR课堂来到朝阳区润丰小学，探索未来教育新模式</h1>
             <section className="news-content">
-              <img src="http://download.duckr.cn/vrschool/details/news7/image1.jpeg"/>
-              <p>4月19日下午，哈尔滨市阳明小学举行”VR教育未来学校智慧课堂研讨会”活动，学校师生通过微视酷VR课堂感受了一堂生动别致的体验课。哈尔滨进修学校长康校长，道外区教研员等出席研讨会并作发言。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news7/image2.jpeg"/>
-              <p>VR技术的运用已经给教育行业带来颠覆性的影响，在虚拟现实浸入式体验下，师生之间的知识传递与接收都发生了巨大变化。虚拟现实帮助学生消减时间与空间造成的认知阻断。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news7/image3.jpeg"/>
-              <p>作为创新教学成果，微视酷VR课堂不同于传统教学模式，将VR技术引入教学过程，并提供了富有针对性的教学内容，以便学生们对科学原理和实验现象的理解更加透彻。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news7/image4.jpeg"/>
-              <p>体验课气氛活跃，戴上VR眼镜后，学生们立即沉浸在“触手可及”的虚拟现实世界中，详细的知识点和真实的现场体验感都都使得很多同学们流连忘返。课程结束后，有同学一脸兴奋地说：“很真实很刺激！眼镜里看到的知识点真的就在每个人眼前！”</p>
-              <img src="http://download.duckr.cn/vrschool/details/news7/image5.jpeg"/>
-              <p>微视酷VR课堂轻便、稳定流畅、清晰度高等特点除了展现真实、互动、情节化的VR特征外，也为“VR+教育”的应用方向提供了更多可能。</p>
-              <p>微视酷现场负责人也表示，“微视酷VR课堂系统将继续与更多VR教育类内容厂商合作，为'VR+教育'提供优质服务支持。希望有更多学校关注到VR技术对教学方式的促进与提升，有更多老师和学生能通过微视酷VR课堂的产品受益，有更多课堂能享受到VR带来的创新革命。”</p>
-              <img src="http://download.duckr.cn/vrschool/details/news7/image6.jpeg"/>
+              <img src="http://download.duckr.cn/vrschool/details/news7/image7.png"/>
+              <p>5月9日，微视酷科技走进北京朝阳区润丰小学，给全体教师带去VR体验课堂，并同时开展教育研讨会。</p>
+              <p>会议围绕学科核心素养、科学研究、工程实践及思维能力等内容展开，润丰小学的全体骨干老师到场参会，原史家胡同小学校长卓立作了“关于小学科学教学中如何发展学生的科学思维，学校引入先进技术的必要性”等方面的演讲。</p>
+              <p>为了让与会老师更好的体验虚拟现实技术给教育带来的改变，微视酷研究员为与会教师分享了虚拟现实教育发展的现状，介绍了微视酷科技最新的产品内容及课程。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news7/image8.png"/>
+              <p>为了让与会老师更好的体验虚拟现实技术给教育带来的改变，微视酷研究员为与会教师分享了虚拟现实教育发展的现状，介绍了微视酷科技最新的产品内容及课程。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news7/image9.png"/>
+              <p>未来教育到底会是什么模样？虽然当然没有人能给出确切答案，但正是这种不确定性给了微视酷思考、变革的空间。在实践过程中，虚拟现实技术让很多只能想象的知识变成“可触摸”的现实，VR为未来教育描绘了更多的图景。</p>
             </section>
           </section>
         </section>

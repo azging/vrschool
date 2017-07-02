@@ -22,24 +22,27 @@ class Details extends Component {
             </div>
           </section>
           <section className="content-box">
-            <h1 className="news-title">济南VR智慧课堂教育研讨会大获成功，引发广泛关注</h1>
+            <h1 className="news-title">江苏新沂市教育局召开VR智慧课堂研讨会</h1>
             <section className="news-content">
-              <p>新学期伊始，微视酷VR课堂便来到美丽的泉城——山东济南，给济南市胜利大街小学5年前6班的学生们带去了“别开生面”的一堂天文课。</p>
-              <p>由济南市教育局、济南广播电视台、济南市中区宣传部共同举办，市中区教育局、济南网、无线济南客户端、市中区手机台共同承办的“未来学校 VR智慧课堂教育教学研讨会”同步举行。并确立胜利大街小学为 “山东省VR智慧课堂示范学校”。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news4/image1.jpeg"/>
-              <img src="http://download.duckr.cn/vrschool/details/news4/image2.jpeg"/>
-              <p>在老师的引导下，学生们戴上VR眼镜后进入太阳系的虚拟空间，了解太阳系的奥秘。伴随着阵阵惊叹，孩子们在微视酷VR课堂营造的沉浸式氛围里遨游太空。</p>
-              <p>“VR眼镜实在太酷了，我感觉自己像是外太空的宇航员，轻轻转动头部就可以‘飞’向任何一颗行星！”体验过微视酷设备的学生大呼过瘾。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news4/image3.jpeg"/>
-              <p>学生们在接受媒体采访时说到，“现在我们有了VR眼镜，在课堂上我们就可以更加生动地有趣地观看行星，这让我感觉非常震撼。”“（通过）VR眼镜，我看到了八大行星，还有月球，有身临其境的感觉。”</p>
-              <p>老师也表示，和传统教学方式相比，VR课堂更加生动，能够活跃课堂气氛，帮助学生更好的理解知识，增强学习主动性。“以前的课本也有图片，但图片毕竟是死板的，视频也有，但孩子们没有身临其境的感觉。VR眼镜的代入感特别强，无形中，孩子的积极性就调动起来了。”</p>
-              <p>据了解，济南市市中区基于加快落实“人才、产业、科技、文化”四大强区战略，不断探索互联网教育在课堂教学创新应用中的有效模式和方法的宗旨，举行了这场特殊的VR体验之旅。</p>
-              <p>VR教学将传统的单向教育转化为认知交互和沉浸式体验模式，学生被带入微观或宏观的虚拟世界中，身临其境地观察、探究，极大激发其兴趣和好奇心，增强学生的学习主动性。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news4/image4.jpeg"/>
-              <p>胜利大街小学在本次活动中被确立为 “山东省VR智慧课堂示范学校”。该校的王校长表示，在网络等多渠道的刺激下，学生的思维越来越“耐不住寂寞”，传统的教学方式，已经越来越不能适应现代化教学的需要。因此，改进授课方式不仅是提高教学效率的重要手段，而且已经成为留住学生“专注力”的主要途径。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news4/image5.jpeg"/>
-              <p>作为此次VR体验课的技术提供方——微视酷VR课堂是目前国内唯一能够做到“真正能实现课堂教学的VR课堂”。VR教育在国内刚刚兴起，这种课堂正在成为各地教育部门重点推荐VR教学项目。</p>
-              <p>专家表示，教育部在“十三五”规划中已明确提出，VR教育是“发展未来学校和智慧课堂改革”的重要内容，VR教育的发展前景会变得越来越广阔。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news5/image1.jpeg"/>
+              <p>为聚焦新沂市智慧教育，发展新技术、新思维，推动VR虚拟现实技术在教育领域的创新应用，探讨VR教育，助力新沂智慧课堂改革。3月16日，新沂市教育局于新安小学举办VR智慧课堂研讨会。市教育局、商务局、科技局领导，教育局相关科室、城区部分中小学负责人，北京科技大学虚拟现实实验室主任等人员出席会议。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news5/image2.jpeg"/>
+              <img src="http://download.duckr.cn/vrschool/details/news5/image3.jpeg"/>
+              <p>会前，与会人员聆听了微视酷《太阳系》VR公开课。新安小学的同学们通过微视酷自主研发的“IES沉浸式VR教学系统”感受奇妙太空。通过老师的指引，同学们相互配合，在虚拟现实中体验视觉化的宇宙世界，记录太阳系各个行星的天体数据，在愉快的学习氛围中完成知识消化。公开课后，与会人员也亲身感受了VR技术的特别之处。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news5/image4.jpeg"/>
+              <img src="http://download.duckr.cn/vrschool/details/news5/image5.jpeg"/>
+              <p>市教育局领导在座谈会上指出，微视酷VR课堂开发是智慧教育的一项重要内容，对于提升课堂教学效率有帮助。智慧教育是按照市委市政府要求建设智慧新沂的一个重要组成部分，市教育局于2015年购买了智慧教育运行平台，要求每个学校建立网站，诸多学校都在此项工作中投入大量的人力物力，取得了初步的成效。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news5/image6.jpeg"/>
+              <p>从国家到地区都在强调智慧课堂、在线教育，这将是下一阶段各校研究的一个重点。“人工智能+教育”的模式，是将来教育发展的必然模式，未来10年，人工智能会像水和空气一样在生活中无处不在。市教育局领导强调，今天的VR课堂展示，使我们认识到智慧教育、在线教育、人工智能就在身边，让我们对智慧教育有更深刻的感受。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news5/image7.jpeg"/>
+              <img src="http://download.duckr.cn/vrschool/details/news5/image8.jpeg"/>
+              <p>VR教育已经成为了教学技术发展的一大潮流，VR教学将传统的单向教育转化为认知交互和沉浸式体验模式，学生被带入微观或宏观的虚拟世界中，身临其境地观察、探究，极大激发了兴趣和好奇心，增强学习的主动性。它还将学科的复杂知识和抽象结构形象展现，帮助学生更好地理解知识。</p>
+              <p>如何将VR技术与教育完美结合，并落地到现实应用层面，真正为提高国家的素质教育、开启孩子们的未来教育做出贡献，成为了当下教育界和相关企业最为关注的问题。</p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
+              <p></p>
             </section>
           </section>
         </section>

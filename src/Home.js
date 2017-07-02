@@ -13,6 +13,9 @@ class Home extends Component {
         window.location.href = 'http://developer.wizsch.com/';
     }
     componentDidMount() {
+        var mouseX = $(window).width() / 2;
+        var mouseY = $(window).height() / 2;
+        var minMove = 10;
         $(document).ready(function(){
             let heroContentHeight = $('.hero').height() - $('.hero-nav').height();
             $('.hero-content').css("height", heroContentHeight);
@@ -20,6 +23,12 @@ class Home extends Component {
         $(window).resize(function() {
             let heroContentHeight = $('.hero').height() - $('.hero-nav').height();
             $('.hero-content').css("height", heroContentHeight);
+        });
+        $(".vr-star-bg").mousemove(function (e) {
+            var xx = e.originalEvent.x || e.originalEvent.layerX || 0; 
+            if (mouseX - xx < 0) {
+            }
+            $(".vr-star-bg").css("margin-left", -300);
         });
 
         $(document).ready(() => {
@@ -48,6 +57,7 @@ class Home extends Component {
         <HomeHeader data="0" /> 
         <section className="hero-content">
           <img src="http://download.duckr.cn/vrschool/home/vr_glass.png" alt="" className="vr-glass" />
+          <img src="http://download.duckr.cn/vrschcool/home/home_star_bg.png" alt="" className="vr-star-bg" />
           <h1>让教育变得更简单、更快乐、更高效</h1>
           <h2>Make education easier ，happier and more effient</h2>
         </section>

@@ -22,18 +22,20 @@ class Details extends Component {
             </div>
           </section>
           <section className="content-box">
-            <h1 className="news-title">微视酷落地常熟探讨VR教学</h1>
+            <h1 className="news-title">微视酷VR课堂再现哈市 聚首阳明小学探讨未来教育</h1>
             <section className="news-content">
-              <p>为聚焦智慧教育，发展新技术、新思维，推动VR虚拟现实技术在教育领域的创新应用，探讨VR教育，助力新沂智慧课堂改革。3月31日，常熟在继新沂市之后，成为新一个召开VR教学研讨会的城市。活动由常熟市教育装备技术中心主办，各学校分管校长、技教室主任和教育装备技术中心有关人员相聚在常熟市实验小学，共同探讨VR教育。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news8/image1.jpeg"/>
-              <p>会议主要分为展示课观摩、专家讲座、专题研讨三个环节。在展示课上，微视酷再次给大家带去了《太阳系》课程，我们所熟悉的“IES沉浸式VR教学系统”见到了“新朋友”——常熟市实验小学的孩子们和与会的专家们。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news8/image2.jpeg"/>
-              <p>看到出现在屏幕上的太阳系，同学们都非常兴奋，往常总是被老师描述的景象终于马上要以直观的画面出现在眼前了。“IES沉浸式VR教学系统”也没让同学们失望，戴上微视酷的VR设备之后，犹如身临其境的感觉和充足的学习资料让同学们目不暇接。</p>
-              <p>让同学们没想到的是平常在书本上很难找到地方的数字只要点击屏幕按钮就能全部出现在眼前，更没想到“玩着玩着”还真能把知识顺带手就学了。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news8/image3.jpeg"/>
-              <p>微视酷作为VR教育软件领跑者，2017年持续发力，在前期广泛而深入地与全国各地的中小学进行合作之后，继续深耕教育领域，为学生们带去新的学习方法，让他们享受更简单、更快乐、更高效的学习方式，向传统方式宣告“学习不一定要局限于书本”；为老师们带去新的教学理念和技术，创造更活跃的课堂气氛，营造更和谐的师生互动方式，打造更加科学有效的教学体系。</p>
-              <img src="http://download.duckr.cn/vrschool/details/news8/image4.jpeg"/>
-              <p>积极投身教育事业的发展，与广大师生和教育专家共同推进教育事业的进步，享受教育改革带来的成果，是微视酷不断前行的动力和支柱。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news7/image1.jpeg"/>
+              <p>4月19日下午，哈尔滨市阳明小学举行”VR教育未来学校智慧课堂研讨会”活动，学校师生通过微视酷VR课堂感受了一堂生动别致的体验课。哈尔滨进修学校长康校长，道外区教研员等出席研讨会并作发言。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news7/image2.jpeg"/>
+              <p>VR技术的运用已经给教育行业带来颠覆性的影响，在虚拟现实浸入式体验下，师生之间的知识传递与接收都发生了巨大变化。虚拟现实帮助学生消减时间与空间造成的认知阻断。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news7/image3.jpeg"/>
+              <p>作为创新教学成果，微视酷VR课堂不同于传统教学模式，将VR技术引入教学过程，并提供了富有针对性的教学内容，以便学生们对科学原理和实验现象的理解更加透彻。</p>
+              <img src="http://download.duckr.cn/vrschool/details/news7/image4.jpeg"/>
+              <p>体验课气氛活跃，戴上VR眼镜后，学生们立即沉浸在“触手可及”的虚拟现实世界中，详细的知识点和真实的现场体验感都都使得很多同学们流连忘返。课程结束后，有同学一脸兴奋地说：“很真实很刺激！眼镜里看到的知识点真的就在每个人眼前！”</p>
+              <img src="http://download.duckr.cn/vrschool/details/news7/image5.jpeg"/>
+              <p>微视酷VR课堂轻便、稳定流畅、清晰度高等特点除了展现真实、互动、情节化的VR特征外，也为“VR+教育”的应用方向提供了更多可能。</p>
+              <p>微视酷现场负责人也表示，“微视酷VR课堂系统将继续与更多VR教育类内容厂商合作，为'VR+教育'提供优质服务支持。希望有更多学校关注到VR技术对教学方式的促进与提升，有更多老师和学生能通过微视酷VR课堂的产品受益，有更多课堂能享受到VR带来的创新革命。”</p>
+              <img src="http://download.duckr.cn/vrschool/details/news7/image6.jpeg"/>
             </section>
           </section>
         </section>
