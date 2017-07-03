@@ -29,15 +29,17 @@ footer, header, hgroup, menu, nav, section {
   src: url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Regular.woff2") format("woff2"),
        url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Regular.woff") format("woff"),
        url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Regular.ttf") format("truetype"),
-       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Regular.svg") format("svg");
+       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.eot") format("embedded-opentype"),
+       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Regular.svg") format("svg"),
+       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Regular.otf") format("opentype");
 }
 @font-face {
   font-family: "SourceHanSansCN-Medium";
   src: url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.woff2") format("woff2"),
        url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.woff") format("woff"),
        url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.ttf") format("truetype"),
-       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.svg") format("svg"),
-       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.eot") format("embedded-opentype");
+       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.eot") format("embedded-opentype"),
+       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.svg") format("svg");
 }
 body {
     line-height: 1;
