@@ -1356,14 +1356,12 @@ input::-webkit-input-placeholder {
     padding-top: 20px;
 }
 .item-title {
-    font-family: SourceHanSansCN-Bold;
     font-size: 20px;
     color: #333333;
     margin-bottom: 42px;
 }
 .item-link {
     display: block;
-    font-family: SourceHanSansCN-Regular;
     font-size: 16px;
     color: #999999;
     margin-top: 16px;
