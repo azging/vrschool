@@ -39,7 +39,8 @@ footer, header, hgroup, menu, nav, section {
        url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.woff") format("woff"),
        url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.ttf") format("truetype"),
        url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.eot") format("embedded-opentype"),
-       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.svg") format("svg");
+       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.svg") format("svg"),
+       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.otf") format("opentype");
 }
 body {
     line-height: 1;
