@@ -89,14 +89,12 @@ table {
     margin-bottom: 12px;
 }
 .contact-info-box .contact-info-subtitle {
-    font-family: SourceHanSansCN-Regular;
     font-size: 20px;
     color: #333333;
     font-weight: bold;
     margin-top: 30px;
 }
 .contact-info-box .contact-info-detail {
-    font-family: SourceHanSansCN-Regular;
     font-size: 20px;
     color: #333333;
     margin-top: 12px;
@@ -126,7 +124,6 @@ table {
 }
 .comment-box label {
     display: block;
-    font-family: SourceHanSansCN-Regular;
     font-size: 22px;
     color: #333333;
     margin-top: 34px;
@@ -135,7 +132,6 @@ table {
     width: 100%;
     height: 60px;
     display: block;
-    font-family: SourceHanSansCN-Regular;
     font-size: 20px;
     color: #999999;
     margin-top: 16px;
@@ -151,7 +147,6 @@ table {
     width: 100%;
     height: 240px;
     display: block;
-    font-family: SourceHanSansCN-Regular;
     font-size: 20px;
     color: #333333;
     margin-top: 16px;
@@ -170,7 +165,6 @@ table {
     height: 42px;
     float: right;
     margin-top: 42px;
-    font-family: SourceHanSansCN-Regular;
     font-size: 20px;
     color: #ffffff;
     background: #f08300;
@@ -199,7 +193,6 @@ table {
     margin: 57px 0 40px;
 }
 .success-box .success-hint {
-    font-family: SourceHanSansCN-Regular;
     font-size: 22px;
     color: #ffffff;
 }

@@ -44,7 +44,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    font-family: SourceHanSansCN-Regular;
     overflow: hidden;
 }
 ol, ul {
@@ -1273,7 +1272,6 @@ input::-webkit-input-placeholder {
     margin-bottom: 12px;
 }
 .honor-text {
-    font-family: SourceHanSansCN;
     font-size: 24px;
     color: #212121;
     line-height: 34px;
@@ -1281,7 +1279,6 @@ input::-webkit-input-placeholder {
     font-weight: 500;
 }
 .honor-subtext {
-    font-family: SourceHanSansCN-Regular;
     font-size: 20px;
     color: #999999;
     line-height: 30px;
@@ -1372,7 +1369,6 @@ input::-webkit-input-placeholder {
     margin-top: 164px;
 }
 .footer-copyright .copyright-content {
-    font-family: SourceHanSansCN-Regular;
     font-size: 18px;
     color: #333333;
     text-align: center;
