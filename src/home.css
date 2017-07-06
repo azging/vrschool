@@ -856,17 +856,12 @@ input::-webkit-input-placeholder {
 
 .solution-text1-box {
     position: absolute;
-    width: 166px;
-    height: 30px;
-    right: 24%;
-    top: 9%;
+    width: 470px;
+    height: auto;
+    right: 1.8%;
+    top: -10%;
     opacity: 0;
     transition: all 0.5s ease-in-out;
-}
-
-.solution-text1-box p {
-    color: #333333;
-    font-size: 30px;
 }
 
 .solution-text2-box {

@@ -44,7 +44,7 @@ class SolutionControl extends Component {
         $("#img-text" + index).css('opacity', '1');
         switch (imgIndex) {
             case 1:
-                $('#img-text0').css('top', '19%');
+                $('#img-text0').css('top', '9%');
                 break;
             case 2:
                 $('#img-text1').css('right', '8.8%');
