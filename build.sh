@@ -50,7 +50,7 @@ sed -ie "s/Content/News/g" src/App.js
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/news/vrshool
+mv -f build vr/news/vrschool
 
 sed -ie "s/News/Industry/g" src/App.js 
 yarn build

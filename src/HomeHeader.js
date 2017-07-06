@@ -67,7 +67,7 @@ class HomeHeader extends Component {
         window.location.href = 'http://47.93.28.215/vr/' + 'content_details/';
     }
     jumpNews() {
-        window.location.href = 'http://47.93.28.215/vr/' + 'news/school/';
+        window.location.href = 'http://47.93.28.215/vr/' + 'news/vrschool/';
     }
     jumpContact() {
         window.location.href = 'http://47.93.28.215/vr/' + 'contact_us/';
