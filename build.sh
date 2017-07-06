@@ -44,115 +44,117 @@ sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
 mv -f build vr/content_details
 
+mkdir -p vr/news/
+
 sed -ie "s/Content/News/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/news
+mv -f build vr/news/vrshool
 
 sed -ie "s/News/Industry/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/industry
+mv -f build vr/news/industry
 
-mkdir -p vr/details/
+mkdir -p vr/news/details/
 
 sed -ie "s/Industry/Details1/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details1
+mv -f build vr/news/details/details1
 
 sed -ie "s/Details1/Details2/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details2
+mv -f build vr/news/details/details2
 
 sed -ie "s/Details2/Details3/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details3
+mv -f build vr/news/details/details3
 
 sed -ie "s/Details3/Details4/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details4
+mv -f build vr/news/details/details4
 
 sed -ie "s/Details4/Details5/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details5
+mv -f build vr/news/details/details5
 
 sed -ie "s/Details5/Details6/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details6
+mv -f build vr/news/details/details6
 
 sed -ie "s/Details6/Details7/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details7
+mv -f build vr/news/details/details7
 
 sed -ie "s/Details7/Details8/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details8
+mv -f build vr/news/details/details8
 
 sed -ie "s/Details8/Details9/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details9
+mv -f build vr/news/details/details9
 
 sed -ie "s/Details9/Details10/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details10
+mv -f build vr/news/details/details10
 
 sed -ie "s/Details10/Details11/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details11
+mv -f build vr/news/details/details11
 
 sed -ie "s/Details11/Details12/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details12
+mv -f build vr/news/details/details12
 
 sed -ie "s/Details12/Details13/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details13
+mv -f build vr/news/details/details13
 
 sed -ie "s/Details13/Details14/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details14
+mv -f build vr/news/details/details14
 
 sed -ie "s/Details14/Details15/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details15
+mv -f build vr/news/details/details15
 
 sed -ie "s/Details15/Details16/g" src/App.js 
 yarn build
 sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
-mv -f build vr/details/details16
+mv -f build vr/news/details/details16
 
 sed -ie "s/Details16/Contact/g" src/App.js 
 yarn build
