@@ -67,15 +67,15 @@ class Kinds extends Component {
                         <img className="kinds-page1-content" src="http://download.duckr.cn/vrschool/product/vr/1_bg_2_1.jpg" />
                         <img className="kinds-page1-content" src="http://download.duckr.cn/vrschool/product/vr/1_bg_3_1.jpg" />
                     </section>
-                    <img src="http://download.duckr.cn/vrschool/product/vr/image.png" className="kinds-kids-img" />
+                    <img src="http://download.duckr.cn/vrschool/product/vr/students.png" className="kinds-kids-img" />
                     <section className="kinds-text1-box">
                         <p className="kinds-text1-p1">VR课堂</p>
-                        <p className="kinds-text1-p2">真正能上课的移动端VR课堂。教师一键操控，自由掌控；学生沉浸体验，锁定注意力</p>
+                        <p className="kinds-text1-p2">打造“真正能上课的VR”。教师课堂一手掌控，学生注意一秒吸引。</p>
                         <p className="kinds-text1-p3">□ 搭载IES沉浸式教育软件系统</p>
-                        <p className="kinds-text1-p3">□ 30节K12标准课件，海量云课件下载</p>
-                        <p className="kinds-text1-p3">□ 一台PAD主控端，50套VR硬件设备</p>
-                        <p className="kinds-text1-p3">□ 与国家教材同步，名师参与制作课件</p>
-                        <p className="kinds-text1-p4">服务：教师培训、系统维护</p>
+                        <p className="kinds-text1-p3">□ 海量课件下载，标准化K12课件</p>
+                        <p className="kinds-text1-p3">□ 教师PAD主控，50套学生VR设备</p>
+                        <p className="kinds-text1-p3">□ 与课程大纲同步，名师参与制作</p>
+                        <p className="kinds-text1-p4">服务：免费培训、系统维护、课件升级</p>
                     </section>
                     <section className="kinds-pad-box">
                         <section className="kinds-pad-arrow-box">
@@ -92,7 +92,7 @@ class Kinds extends Component {
                         <p className="kinds-text1-p3">□ 搭载IES沉浸式教育软件系统</p>
                         <p className="kinds-text1-p3">□ N台主控端</p>
                         <p className="kinds-text1-p3">□ N套强交互VR设备</p>
-                        <p className="kinds-text1-p3">□ K12标准课件或者定制课件</p>
+                        <p className="kinds-text1-p3">□ K12标准课件或定制课件</p>
                         <p className="kinds-text1-p4">服务：免费培训、系统维护、云端升级</p>
                     </section>
                 </section>
@@ -100,12 +100,12 @@ class Kinds extends Component {
                     <img className="kinds-page1-content" src="http://download.duckr.cn/vrschool/product/vr/3_bg_0.png" />
                     <section className="kinds-text3-box">
                         <p className="kinds-text1-p1">VR实训空间</p>
-                        <p className="kinds-text1-p2">个性化高端定制VR教学解决方案</p>
+                        <p className="kinds-text1-p2">私人订制个性化VR教学解决方案</p>
                         <p className="kinds-text1-p3">□ 搭载IES沉浸式教育软件系统</p>
-                        <p className="kinds-text1-p3">□ 固定专业教室</p>
-                        <p className="kinds-text1-p3">□ N台主控端</p>
-                        <p className="kinds-text1-p3">□ N套强交互的体感VR设备</p>
-                        <p className="kinds-text1-p3">□ 内容定制，专业开发</p>
+                        <p className="kinds-text1-p3">□ 专家级配套教案</p>
+                        <p className="kinds-text1-p3">□ 多台主控端</p>
+                        <p className="kinds-text1-p3">□ 多套体感VR设备</p>
+                        <p className="kinds-text1-p3">□ 专业团队联合开发</p>
                         <p className="kinds-text1-p4">服务：免费培训、系统维护、云端升级</p>
                     </section>
                 </section>

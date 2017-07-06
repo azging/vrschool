@@ -7,7 +7,7 @@ var $ = require('jquery');
 class Contact extends Component {
     componentDidMount() {
         $(document).ready(function(){
-            document.title = 'VRschool|Contact Us';
+            document.title = 'VRschool|Contact';
         });
     }
   render() {

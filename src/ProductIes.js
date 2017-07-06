@@ -19,18 +19,16 @@ class ProductIes extends Component {
         <img className="ies-top-slider-bg" src="http://download.duckr.cn/vrschool/product/ies/ies_bg1.jpg" />
         <section className="ies-top-text-box">
             <p className="ies-top-text-title">
-            IES沉浸式教育系统
+            IES沉浸式教育平台系统
             </p>
             <p className="ies-top-text1">
-            IEC：云端技术支持，实现云端课程库，学生行为数据分析，
-            教学环境远程传递
+            IEC：沉浸式教育云。云计算技术，实现课程管理、学校管理和云端大数据管理和分析。
             </p>
             <p className="ies-top-text2">
-            IEM：可远程教学，无需固定教室，30分钟即可完成安装使用
+             IEM：沉浸式教育管理平台。专业完备的教育管理功能，实现课堂教学管理、课堂教学互动、数据收集和教学效果反馈。
             </p>
             <p className="ies-top-text2">
-            IEL：海量VR课程，全国一流师资制作，老师统一控制VR课
-            程节奏，讲解、提问、监控、考试、统计、反馈课堂全搞定
+             IEM：沉浸式教育管理平台。专业完备的教育管理功能，实现课堂教学管理、课堂教学互动、数据收集和教学效果反馈。
             </p>
             <section className="ies-login-school">
                 <a href="http://47.93.28.215/vr/login/">学校登录</a>

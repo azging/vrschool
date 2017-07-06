@@ -109,47 +109,49 @@ class Solution extends Component {
                     <section className="solution-control-opacity">
                     </section>
                     <section id="img-text0" className="solution-text1-box">
-                        <p>VR教学教室</p>
+                        <p className="solution-text-title">VR教学教室</p>
+                        <p className="solution-text-content1">紧贴课堂需求，全方位直击课堂重难点，同步云端数据，实现课堂互动，把控课堂进度，便利课堂管理。</p>
+                        <p className="solution-text-content2">应用领域：K12普通教室、科学教室、创客教室等</p>
                     </section>
                     <section id="img-text1" className="solution-text2-box">
                         <p className="solution-text-title">VR创客教室</p>
-                        <p className="solution-text-content1">STEAM创客教育意在提高学生在科学、技术、工程、数学和艺术领域的能力，结合VR技术，创造沉浸式体验，培养学生的认知体验，激发学习兴趣</p>
+                        <p className="solution-text-content1">VR创客教室以培养学生创新精神和动手能力为重点，将VR技术与STEAM教育、创客教育相融合，创造沉浸式体验环境，激发学生学习兴趣，让学生成为学习的主动者。</p>
                         <p className="solution-text-content2">应用领域：创意创想；探寻科学原理等</p>
                     </section>
                     <section id="img-text2" className="solution-text3-box">
                         <p className="solution-text-title">VR科学实验室</p>
-                        <p className="solution-text-content1">该方案提供科学实验室的VR形式实验</p>
-                        <p className="solution-text-content2">应用领域：物理实验，化学实验，生物实验等</p>
+                        <p className="solution-text-content1">应用VR技术，创建虚拟实验室，实现学生在虚拟环境下的科学探索。</p>
+                        <p className="solution-text-content2">应用领域：物理实验；化学实验；生物实验等</p>
                     </section>
                     <section id="img-text3" className="solution-text4-box">
                         <p className="solution-text-title">VR研学游学</p>
-                        <p className="solution-text-content1">借助计算机图像技术以三维建模的形式构建虚拟大空间，并且提供配套的导揽功能。完成大空间的游览展示</p>
+                        <p className="solution-text-content1">借助计算机图像技术以三维建模的形式构建虚拟大空间，配套的地图功能，场景仿真模拟，足不出户，尽可遍游天下。</p>
                         <p className="solution-text-content2">应用领域：场馆展示；大空间展示；历史遗迹复原等</p>
                     </section>
                     <section id="img-text4" className="solution-text5-box">
                         <p className="solution-text-white-title">VR博物馆</p>
-                        <p className="solution-text-white-content1">可以还原真实的博物馆和其中的文物，还可以突破博物馆传统的陈列方式，更多视角距离的提供文物的展示。</p>
+                        <p className="solution-text-white-content1">1:1还原真实博物馆，突破传统的陈列形式，在博物馆中自由探索，多角度近距离观察文物和展品。</p>
                         <p className="solution-text-white-content2">应用领域：古生物还原；文物还原；艺术品展示等。</p>
                     </section>
                     <section id="img-text5" className="solution-text6-box">
                         <p className="solution-text-title">VR安全访问站</p>
-                        <p className="solution-text-content1">安全教育通常通过讲解和模拟的方式进行，VR技术创造的沉浸感，可以很大程度上强化安防教育的效果，令培训效果刻骨铭心</p>
+                        <p className="solution-text-content1">打破传统演示讲解模式，结合VR技术体验事故或灾难现场，让安防教育成为真正的实战演习！</p>
                         <p className="solution-text-content2">应用领域：消防安全；交通安全；设备或工具的安全使用等</p>
                     </section>
                     <section id="img-text6" className="solution-text7-box">
                         <p className="solution-text-white-title">VR实操车间</p>
-                        <p className="solution-text-white-content1">此方案用于解决特定行业教学内容抽象，形式枯燥，实训设配昂贵或损耗严重，实操危险问题</p>
+                        <p className="solution-text-white-content1">借助VR技术建立行业实训室，多复杂、高损耗一手掌控，全仿真操作空间，高效提高实操安全性。</p>
                         <p className="solution-text-white-content2">应用领域：器械的拆散和组装；器械的结构原理展示等</p>
                     </section>
                     <section id="img-text7" className="solution-text8-box">
-                        <p className="solution-text-white-title">VR天下</p>
-                        <p className="solution-text-white-content1">采用专业的航拍，全景拍摄技术的拍摄风景，地貌等影像</p>
+                        <p className="solution-text-white-title">VR探秘</p>
+                        <p className="solution-text-white-content1">高清探秘宇宙空间、自然地理、生命科学等，借由VR技术，从科学视角解读神奇世界，探索谜团奇险。</p>
                         <p className="solution-text-white-content2">应用领域：展览展示，风景地貌展示等</p>
                     </section>
                     <section id="img-text8" className="solution-text9-box">
-                        <p className="solution-text-white-title">VR安全访问站</p>
-                        <p className="solution-text-white-content1">安全教育通常通过讲解和模拟的方式进行，VR技术创造的沉浸感，可以很大程度上强化安防教育的效果，令培训效果刻骨铭心</p>
-                        <p className="solution-text-white-content2">应用领域：消防安全；交通安全；设备或工具的安全使用等</p>
+                        <p className="solution-text-white-title">VR天下</p>
+                        <p className="solution-text-white-content1">实景拍摄，高清晰度的全景虚拟展示，带来身临其境的体验。</p>
+                        <p className="solution-text-white-content2">应用领域：展览展示、风景地貌展示等</p>
                     </section>
                     <section className="solution-control-box">
                         <SolutionControl data="0" name="VR教学教室" imgUrl="http://download.duckr.cn/vrschool/solution/btn_1_default.png" />

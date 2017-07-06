@@ -344,7 +344,7 @@ table {
     height: auto;
     left: 0px;
     top: 206px;
-    color: #ffffff;
+    color: #333333;
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }

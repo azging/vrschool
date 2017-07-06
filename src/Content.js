@@ -17,7 +17,7 @@ class Content extends Component {
             <section className="content-image1-box">
                 <section className="content-image1-left-box">
                     <p className="title">桥的形状和结构</p>
-                    <p className="content">本课程利用VR技术展现了四种不同形态的桥，分别是上承式拱桥、下承式拱桥、悬索桥、斜拉桥。同时每个桥边设置了不同的观测点，便于学生多角度的观测。该课适合课程导入或总结时看</p> 
+                    <p className="content">本课程利用VR技术展现了四种不同形态的桥，分别是上承式拱桥、下承式拱桥、悬索桥、斜拉桥。各桥边设置不同观测点，便于学生多角度观察。</p> 
                 </section>
                 <section className="content-image1-right-box">
                     <img src="http://download.duckr.cn/vrschool/content/image_1.png" />
@@ -29,13 +29,13 @@ class Content extends Component {
                 </section>
                 <section className="content-image1-left-box">
                     <p className="title">在星空中</p>
-                    <p className="content">基于学生学情，很多学生没办法感知到这七颗星并不是在一个平面上，而是距离地球有远有近分布的。因此本课让学生在VR中体验在宇宙空间中，从不同角度观察北斗七星，建立三维的北斗七星模型</p> 
+                    <p className="content">基于学生学情，很多学生无法感知北斗七星的三维空间概念，本课程借由VR帮助学生建构立体感、空间感。</p> 
                 </section>
             </section>
             <section className="content-image1-box">
                 <section className="content-image1-left-box">
                     <p className="title">花、果实和种子</p>
-                    <p className="content">通过虚拟场景操作也很有效的规避了学生在课堂使用刀具的安全问题。在游戏的同时激发学生探索的欲望，乐于尝试用各种方法进行科学研究</p> 
+                    <p className="content">通过虚拟场景操作有效规避学生实验的安全性，在游戏的同时激发学生的探究意识和科学精神。</p> 
                 </section>
                 <section className="content-image1-right-box">
                     <img src="http://download.duckr.cn/vrschool/content/image_3.png" />

@@ -152,7 +152,7 @@ class Home extends Component {
             <img src="http://download.duckr.cn/vrschcool/home/star6.png" alt="" className="vr-star6" />
           </section>
           <h1>让教育变得更简单、更快乐、更高效</h1>
-          <h2>Make education easier ，happier and more effient</h2>
+          <h2>Make education easier ，happier and more Efficient</h2>
         </section>
         <div id="home-arrow-1" className="down-arrow">
           <img src="http://download.duckr.cn/vrschool/home/down_arrow.png" alt="" className="down-arrow1" />
@@ -213,7 +213,7 @@ class Home extends Component {
           <div className="city-name city-name24">柳州</div>
         </section>
         <h1>微视酷VR教育</h1>
-        <h2>遍布全国课堂，师生共创<br />体验式教学的精彩！</h2>
+        <h2>遍布全国课堂，师生共创<br />精彩的体验式教学。</h2>
         <img src="http://download.duckr.cn/vrschool/home/girl.png" alt="" className="child" />
         <img src="http://download.duckr.cn/vrschool/home/P3_image2.png" alt="" className="border" />
         <div id="home-arrow-3" className="down-arrow">
@@ -235,13 +235,13 @@ class Home extends Component {
             <img src="http://download.duckr.cn/vrschool/home/icon2.png" alt="" className="honor-logo"/>
             <p className="honor-text">中国教育装备行业协会会员</p >
             <p className="honor-text">中国可视化虚拟现实战略产业联盟<br/>成员单位</p >
-            <p className="honor-text">北京科技大学虚拟现实实验室</p >
+            <p className="honor-text">共建北京科技大学虚拟现实实验室</p >
           </section>
           <section className="honor-right-box honor-box">
             <img src="http://download.duckr.cn/vrschool/home/icon3.png" alt="" className="honor-logo"/>
             <p className="honor-text">中关村高新技术企业</p >
             <p className="honor-text">中国教育学会教育管理分会理事单位</p >
-            <p className="honor-text">CEO杨威被聘为中关村虚拟现实空间<br/>(STRONGVR)导师</p >
+            <p className="honor-text">CEO杨威被聘为中关村虚拟现实空间<br/>(Strong VR)导师</p >
           </section>
         </section>
         <div id="home-arrow-4" className="down-arrow">
