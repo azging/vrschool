@@ -6,6 +6,11 @@ import HomeFooter from './HomeFooter.js';
 var $ = require('jquery');
 
 class Details extends Component {
+    componentDidMount() {
+        $(document).ready(function(){
+            document.title = 'VRschool|News Details';
+        });
+    }
   render() {
     return (
       <section class="detail">

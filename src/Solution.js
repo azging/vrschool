@@ -96,6 +96,9 @@ class SolutionControl extends Component {
 
 class Solution extends Component {
     componentDidMount() {
+        $(document).ready(function(){
+            document.title = 'VRschool|Total Solution';
+        });
     }
     render() {
         return (

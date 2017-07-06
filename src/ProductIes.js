@@ -8,6 +8,9 @@ class ProductIes extends Component {
     componentDidMount() {
         $('.ies-top-text-box').css('right', '13%');
         $(".ies-top-text-box").css('opacity', '1');
+        $(document).ready(function(){
+            document.title = 'VRschool|IES';
+        });
     }
   render() {
     return (

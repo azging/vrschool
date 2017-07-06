@@ -5,6 +5,11 @@ import HomeFooter from './HomeFooter.js';
 var $ = require('jquery');
 
 class Product extends Component {
+    componentDidMount() {
+        $(document).ready(function(){
+            document.title = 'VRschool|Product';
+        });
+    }
     render() {
         var baseUrl = 'http://47.93.28.215/vr/';
         var iesUrl = baseUrl + 'product/ies/';

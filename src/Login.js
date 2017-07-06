@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 var $ = require('jquery');
 
 class PicText extends Component {
-    componentDidMount() {
-    }
 
     viewDetail(href) {
         window.location.href = href;
@@ -37,7 +35,10 @@ class Login extends Component {
     }
     
     componentDidMount() {
-	}
+        $(document).ready(function(){
+            document.title = 'VRschool|For School';
+        });
+    }
     render() {
         return (
             <section className="login-box">

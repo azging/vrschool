@@ -29,6 +29,7 @@ class Home extends Component {
         $(document).ready(function(){
             let heroContentHeight = $('.hero').height() - $('.hero-nav').height();
             $('.hero-content').css("height", heroContentHeight);
+            document.title = 'VRschool|Home';
         });
         $(window).resize(function() {
             let heroContentHeight = $('.hero').height() - $('.hero-nav').height();

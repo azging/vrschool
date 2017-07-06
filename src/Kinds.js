@@ -5,6 +5,11 @@ import HomeHeader from './HomeHeader.js';
 import HomeFooter from './HomeFooter.js';
 
 class Kinds extends Component {
+    componentDidMount() {
+        $(document).ready(function(){
+            document.title = 'VRschool|Kinds of Product';
+        });
+    }
     constructor(props) {
         super(props);
         this.state = {index: 0};

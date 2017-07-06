@@ -5,6 +5,9 @@ var $ = require('jquery');
 
 class PicText extends Component {
     componentDidMount() {
+        $(document).ready(function(){
+            document.title = 'VRschool|VRschool News';
+        });
     }
 
     viewDetail(href) {

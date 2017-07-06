@@ -5,7 +5,13 @@ import HomeHeader from './HomeHeader.js';
 import HomeFooter from './HomeFooter.js';
 
 class Details extends Component {
+    componentDidMount() {
+        $(document).ready(function(){
+            document.title = 'VRschool|News Details';
+        });
+    }
   render() {
+    
     return (
       <section class="detail">
         <HomeHeader />

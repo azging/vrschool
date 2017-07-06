@@ -31,7 +31,7 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
-  <script type="text/javascript" src="/static/js/main.23442f08.js"></script></body>
+  <script type="text/javascript" src="/static/js/main.fc5fd3a5.js"></script></body>
   <script>
     $(function() {
         function bindArrow(section) {

@@ -5,6 +5,11 @@ import HomeFooter from './HomeFooter.js';
 var $ = require('jquery');
 
 class Contact extends Component {
+    componentDidMount() {
+        $(document).ready(function(){
+            document.title = 'VRschool|Contact Us';
+        });
+    }
   render() {
     return (
       <section class="contact">
