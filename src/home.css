@@ -33,15 +33,6 @@ footer, header, hgroup, menu, nav, section {
        url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Regular.svg") format("svg"),
        url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Regular.otf") format("opentype");
 }
-@font-face {
-  font-family: "SourceHanSansCN-Medium";
-  src: url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.woff2") format("woff2"),
-       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.woff") format("woff"),
-       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.ttf") format("truetype"),
-       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.eot") format("embedded-opentype"),
-       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.svg") format("svg"),
-       url("http://download.duckr.cn/vrschool/ttf/SourceHanSansCN-Medium.otf") format("opentype");
-}
 body {
     line-height: 1;
     overflow: hidden;
@@ -898,14 +889,12 @@ input::-webkit-input-placeholder {
     font-size: 20px;
     line-height: 35px;
     padding-top: 18px;
-    font-family: SourceHanSansCN-Medium;
 }
 
 .solution-text-content2 {
     color: #666666;
     font-size: 20px;
     padding-top: 42px;
-    font-family: SourceHanSansCN-Medium;
 }
 
 .solution-text-white-title {
@@ -918,14 +907,12 @@ input::-webkit-input-placeholder {
     font-size: 20px;
     line-height: 35px;
     padding-top: 18px;
-    font-family: SourceHanSansCN-Medium;
 }
 
 .solution-text-white-content2 {
     color: #ffffff;
     font-size: 20px;
     padding-top: 42px;
-    font-family: SourceHanSansCN-Medium;
 }
 
 .solution-text3-box {
@@ -1326,7 +1313,6 @@ input::-webkit-input-placeholder {
     margin-top: 20px;
 }
 .qrcode-box .qrcode-hint {
-    font-family: SourceHanSansCN-Medium;
     font-size: 14px;
     color: #333333;
 }
@@ -1337,7 +1323,6 @@ input::-webkit-input-placeholder {
     margin-bottom: 5px;
 }
 .footer-box .contact-info {
-    font-family: SourceHanSansCN-Medium;
     font-size: 16px;
     color: #333333;
     margin-top: 20px;
