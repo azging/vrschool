@@ -13,19 +13,26 @@ class Home extends Component {
         window.location.href = 'http://developer.wizsch.com/';
     }
     componentDidMount() {
-        var mouseX = $(window).width() / 2;
-        var mouseY = $(window).height() / 2;
-        var minMove = 2;
-        var minMoveX = 2;
-        var minMoveY = 2;
-        var minVrStarBgX = -10;
-        var maxVrStarBgX = 10;
-        var minVrStarBgY = -6;
-        var maxVrStarBgY = 6;
-        var minVrStarBoxX = -10;
-        var maxVrStarBoxX = 10;
-        var minVrStarBoxY = -6;
-        var maxVrStarBoxY = 6;
+        // 屏幕宽度
+        var winWidth = $(window).width();
+        // 屏幕高度
+        var winHeight = $(window).height();
+        // 鼠标左右边界
+        var mouseXBorder = 100;
+        var mouseYBorder = 170;
+        // 北斗七星移动系数
+        var starBoxXCoef = 0.06;
+        var starBoxYCoef = 0.06;
+        var star2Rand = Math.random() + 0.5;
+        var star3Rand = Math.random() + 0.5;
+        var star4Rand = Math.random() + 0.5;
+        var star5Rand = Math.random() + 0.5;
+        var star6Rand = Math.random() + 0.5;
+        // 灯光的移动系数
+        var lightXCoef = 0.05;
+        var lightYCoef = 0.1;
+        // 背景星星的缩小系数
+        var starCoef = 0.08;
         $(document).ready(function(){
             let heroContentHeight = $('.hero').height() - $('.hero-nav').height();
             $('.hero-content').css("height", heroContentHeight);
@@ -35,83 +42,55 @@ class Home extends Component {
             let heroContentHeight = $('.hero').height() - $('.hero-nav').height();
             $('.hero-content').css("height", heroContentHeight);
         });
-        $(".vr-star-bg").mousemove(function (e) {
+        $(".hero-content").mousemove(function (e) {
             var xx = e.originalEvent.x || e.originalEvent.layerX || 0; 
             var yy = e.originalEvent.y || e.originalEvent.layerY || 0; 
-            if (mouseX - xx < 0) {
-                if (xx - mouseX > minMove) {
-                    mouseX = xx;
-                    mouseY = yy;
-                    // 背景星星左移动
-                    var left = parseInt($(".vr-star-bg").css("margin-left"));
-                    left -= minMoveX; 
-                    if (left < minVrStarBgX) {
-                        left = minVrStarBgX;
-                    }
-                    $(".vr-star-bg").css("margin-left", left);
-                    
-                    // 背景星星下移动
-                    var top = parseInt($(".vr-star-bg").css("margin-top"));
-                    top -= minMoveY; 
-                    if (top < minVrStarBgY) {
-                        top = minVrStarBgY;
-                    }
-                    $(".vr-star-bg").css("margin-top", top);
-
-                    // 北斗七星右移动
-                    var left = parseInt($(".vr-star-box").css("left"));
-                    left += minMoveX;
-                    if (left > maxVrStarBoxX) {
-                        left = maxVrStarBoxX;
-                    }
-                    $(".vr-star-box").css("left", left);
-
-                    // 北斗七星上移动
-                    var top = parseInt($(".vr-star-box").css("top"));
-                    top += minMoveY;
-                    if (top > maxVrStarBoxY) {
-                        top = maxVrStarBoxY;
-                    }
-                    $(".vr-star-box").css("top", top);
-                }
+            var star1Left = (xx - winWidth) * starBoxXCoef;
+            var star1Top = (yy - winHeight) * starBoxYCoef;
+            var star2Left = star2Rand * star1Left + 70;
+            var star2Top = star2Rand * star1Top + 60;
+            var star3Left = star3Rand * star1Left + 140;
+            var star3Top = star3Rand * star1Top + 70;
+            var star4Left = star4Rand * star1Left + 200;
+            var star4Top = star4Rand * star1Top + 46;
+            var star5Left = star5Rand * star1Left + 260;
+            var star5Top = star5Rand * star1Top;
+            var star6Left = star6Rand * star1Left + 263;
+            var star6Top = star6Rand * star1Top + 85;
+            var lightLeft = -100 + (winWidth - xx) * lightXCoef;
+            var lightTop = (winHeight - yy) * lightYCoef;
+            var coefX = 1 - starCoef * Math.abs(xx - winWidth / 2) / (winWidth / 2 - mouseXBorder);
+            var coefY = 1 - starCoef * Math.abs(yy - winHeight / 2) / (winHeight / 2 - mouseYBorder);
+            var coef = coefY;
+            if (coefY < coef) {
+                coef = coefY;
             }
-            if (mouseX - xx > 0) {
-                if (mouseX - xx > minMove) {
-                    mouseX = xx;
-                    mouseY = yy;
+            var starPerc = parseInt(100 * coef) + '%';
 
-                    // 背景星星右移动
-                    var left = parseInt($(".vr-star-bg").css("margin-left"));
-                    left += minMoveX; 
-                    if (left > maxVrStarBgX) {
-                        left = maxVrStarBgX;
-                    }
-                    $(".vr-star-bg").css("margin-left", left);
-
-                    // 背景星星上移动
-                    var top = parseInt($(".vr-star-bg").css("margin-top"));
-                    top += minMoveY; 
-                    if (top > maxVrStarBgY) {
-                        top = maxVrStarBgY;
-                    }
-                    $(".vr-star-bg").css("margin-top", left);
-
-                    // 北斗七星左移动
-                    var left = parseInt($(".vr-star-box").css("left"));
-                    left -= minMoveX;
-                    if (left < minVrStarBoxX) {
-                        left = minVrStarBoxX;
-                    }
-                    $(".vr-star-box").css("left", left);
-
-                    // 北斗七星下移动
-                    var top = parseInt($(".vr-star-box").css("top"));
-                    top -= minMoveY;
-                    if (top < minVrStarBoxY) {
-                        top = minVrStarBoxY;
-                    }
-                    $(".vr-star-box").css("top", top);
-                }
+            if (xx < winWidth - mouseXBorder && xx > mouseXBorder && yy < winHeight - mouseYBorder && yy > mouseYBorder) {
+                $('.vr-star1').css('left', star1Left);
+                $('.vr-star1').css('top', star1Top);
+                $('.vr-star2').css('left', star2Left);
+                $('.vr-star2').css('top', star2Top);
+                $('.vr-star3').css('left', star3Left);
+                $('.vr-star3').css('top', star3Top);
+                $('.vr-star4').css('left', star4Left);
+                $('.vr-star4').css('top', star4Top);
+                $('.vr-star5').css('left', star5Left);
+                $('.vr-star5').css('top', star5Top);
+                $('.vr-star6').css('left', star6Left);
+                $('.vr-star6').css('top', star6Top);
+                $('.vr-light').css('margin-left', lightLeft);
+                $('.vr-light').css('margin-top', lightTop);
+                $('.vr-star-bg').css('width', starPerc);
+                $('.vr-star-bg').css('height', starPerc);
+            } else {
+                $('.vr-star-box').css('left', 0);
+                $('.vr-star-box').css('top', 0);
+                $('.vr-light').css('margin-left', 0);
+                $('.vr-light').css('margin-top', 0);
+                $('.vr-star-bg').css('width', '100%');
+                $('.vr-star-bg').css('height', '100%');
             }
         });
 
