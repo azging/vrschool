@@ -13,9 +13,6 @@ class Home extends Component {
         window.location.href = 'http://developer.wizsch.com/';
     }
     componentDidMount() {
-        if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
-            window.location.href = 'http://47.93.28.215/vr/mobile/home/';
-        }
         // 屏幕宽度
         var winWidth = $(window).width();
         // 屏幕高度
