@@ -6,6 +6,9 @@ import HomeFooter from './HomeFooter.js';
 
 class Kinds extends Component {
     componentDidMount() {
+        if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+            window.location.href = 'http://47.93.28.215/vr/mobile/ies/';
+        }
         $(document).ready(function(){
             document.title = 'VRschool|Kinds of Product';
         });

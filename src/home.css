@@ -843,6 +843,30 @@ input::-webkit-input-placeholder {
     background: #d1c0a5;
 }
 
+/* mobile */
+.mobile-img {
+    width: 100%;
+    height: auto;
+}
+
+.mobile-home-section {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.mobile-home-know-ies {
+    position: absolute;
+    right: 18.3%;
+    top: 31%;
+}
+
+.mobile-home-join-ies {
+    position: absolute;
+    right: 18.3%;
+    top: 47%;
+}
+
 /* solution */
 
 .solution-container-box {

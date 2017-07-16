@@ -13,22 +13,27 @@ class Home extends Component {
         window.location.href = 'http://developer.wizsch.com/';
     }
     componentDidMount() {
+        if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+            window.location.href = 'http://47.93.28.215/vr/mobile/home/';
+        }
         // 屏幕宽度
         var winWidth = $(window).width();
         // 屏幕高度
         var winHeight = $(window).height();
-        // 鼠标左右边界
+        // 鼠标左右边界, 左右两边空出100
         var mouseXBorder = 100;
+        // 鼠标上下边界, 上下两边空出170
         var mouseYBorder = 170;
-        // 北斗七星移动系数
+        // 北斗七星第一个移动系数，整体上下移动比例0.06，系数相对于屏幕的宽高
         var starBoxXCoef = 0.06;
         var starBoxYCoef = 0.06;
+        // 其他六个星星的随机系数，0.5-1.5之间,系数相对于北斗七星第一个
         var star2Rand = Math.random() + 0.5;
         var star3Rand = Math.random() + 0.5;
         var star4Rand = Math.random() + 0.5;
         var star5Rand = Math.random() + 0.5;
         var star6Rand = Math.random() + 0.5;
-        // 灯光的移动系数
+        // 灯光的移动系数，左右0.05，上下0.1,系数相对于屏幕的宽高
         var lightXCoef = 0.05;
         var lightYCoef = 0.1;
         // 背景星星的缩小系数

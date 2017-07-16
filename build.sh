@@ -162,6 +162,19 @@ sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html
 sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
 mv -f build vr/contact_us
 
+mkdir -p vr/mobile/
+sed -ie "s/Contact/MobileHome/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/mobile/home
+
+sed -ie "s/MobileHome/MobileIes/g" src/App.js 
+yarn build
+sed -ie "s/\/static\/css\/main/.\/static\/css\/main/g" build/index.html 
+sed -ie "s/\/static\/js\/main/.\/static\/js\/main/g" build/index.html 
+mv -f build vr/mobile/ies
+
 cp -f scripts/index_scroll.html public/index.html
-sed -ie "s/Contact/Home/g" src/App.js 
+sed -ie "s/MobileIes/Home/g" src/App.js 
 
